@@ -1,0 +1,2110 @@
+.viewpatientmain {
+  padding: 148px 98px 50px;
+}
+
+ul.patientprofile {
+  display: flex;
+
+  padding: 0;
+  list-style: none;
+}
+
+.basicinfo {
+  text-align: center;
+}
+
+.johnphillips h5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 21px;
+  text-align: center;
+  color: #18181b;
+}
+
+ul.patientprofile li:first-child {
+  width: 30%;
+}
+
+.johnphillips p {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  margin: 0;
+  text-align: center;
+  opacity: 0.6;
+  color: #18181b;
+}
+
+.johnphillips h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 54px;
+  margin: 0;
+  color: #18181b;
+}
+
+.daymonth span {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19px;
+  color: #18181b;
+}
+
+.johnphillips {
+  margin-top: 12px;
+}
+
+.patientbasicdetail span {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+  color: #18181b;
+}
+
+p.application span {
+  width: 9px;
+  height: 9px;
+  margin: -0;
+  margin-right: 10px;
+  border-radius: 100%;
+  background: #40c057;
+}
+
+p.application {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+p.text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #18181b;
+}
+
+ul.patientprofile {
+  align-items: center;
+  padding: 32px;
+  border-radius: 20px;
+  background: #f4f4f5;
+}
+
+ul.patientprofile li:last-child {
+  width: 60%;
+}
+
+.profilepatient h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+}
+
+.profilepatient {
+  border-radius: 20px;
+  background: #f4f4f5;
+}
+
+ul.profilepatientsubdetail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding: 0;
+  list-style: none;
+}
+
+ul.profilepatientsubdetail li {
+  width: 28%;
+  margin-bottom: 11px;
+}
+
+.profilepatient h4 {
+  padding: 12px 22px;
+  border-bottom: 1px solid rgb(204 204 204 / 60%);
+}
+
+ul.profilepatientsubdetail {
+  padding: 22px;
+}
+
+.profilename span {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  opacity: 0.4;
+  color: #18181b;
+}
+
+.profilename p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: #18181b;
+}
+
+ul.doctorappoinment {
+  display: flex;
+
+  padding: 0;
+  padding: 20px;
+  list-style: none;
+}
+
+.appoinmentdetail span {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  padding: 3px 6px;
+  letter-spacing: 0.05em;
+  color: #f8f5f0;
+  background: #18181b;
+}
+
+.appoinmentdetail h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 34px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+.appoinmentdetail h3 span {
+  display: 14px;
+  padding-left: 1px;
+  color: #18181b;
+  background: transparent;
+}
+
+.appoinmentdetail {
+  overflow: hidden;
+  margin-right: 12px;
+  text-align: center;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.appoinmentdetail p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+.profilepatient h4 {
+  margin: 0;
+}
+
+.viewpatienttitle h4 {
+  /* font-family: "Inter", sans-serif; */
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 53px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+}
+
+/* 
+.viewpatienttitle {
+  position: relative;
+  top: -30px;
+  left: -20px;
+} */
+
+.patienttitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.patienttitle h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+}
+
+.patientnumber span {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 53px;
+  margin-left: 10px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+}
+
+.patientnumber {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.patientothersubdetail {
+  margin-bottom: 15px;
+  padding: 20px 20px 35px;
+  border-radius: 20px;
+  background: #f4f4f5;
+}
+
+p.text {
+  font-weight: 500;
+}
+
+span.dot.bluedot {
+  background: #0d71b1;
+}
+
+.profilename p {
+  font-weight: 600;
+}
+
+.assigndoctor a {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 133px;
+  height: 36px;
+  margin-top: 10px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  border-radius: 60px;
+  background: #0065c0;
+}
+
+.profilename span {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  opacity: 0.4;
+  color: #18181b;
+}
+
+.profilename p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #18181b;
+}
+
+.cunsultncyquestion h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+}
+
+.accordion {
+  border-radius: 10px;
+  background: #f4f4f5;
+}
+
+.accordion {
+  padding: 1px 10px;
+}
+
+.accordion-item {
+  overflow: hidden !important;
+  margin: 10px 0;
+  margin-bottom: 0;
+
+  border-radius: 10px;
+  border-radius: 10px !important;
+  background: transparent;
+  box-shadow: 0 0 3px rgb(0 0 0 / 20%);
+}
+
+.accordion-item button {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  letter-spacing: 0.05em;
+  color: #18181b;
+  background: transparent !important;
+}
+
+button.accordion-button {
+  color: inherit !important;
+  outline: none;
+}
+
+h2.accordion-header button span {
+  margin-left: auto;
+}
+
+.accordion-button::after {
+  margin-left: 40px;
+}
+
+.viewpatientmain {
+  padding: 70px 60px;
+}
+
+ul.doctorappoinment.availabletile {
+  display: block;
+}
+
+ul.doctorappoinment.availabletile a {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 15px;
+  border: 0.5px solid #18181e;
+}
+
+ul.doctorappoinment.availabletile a span {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+ul.doctorappoinment.availabletile a {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 15px;
+  border: 0.5px solid #18181e;
+}
+
+ul.doctorappoinment.availabletile a span {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+ul.doctorappoinment.availabletile span {
+  width: 33%;
+  text-align: center;
+}
+
+.treatmentmain {
+  padding: 30px;
+
+  text-align: center;
+  border-radius: 20px;
+  background: #f4f4f5;
+}
+
+.treatmentmain .treatmentmain___inner {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+ul.treatmentmanegement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+ul.treatmentmanegement li {
+  width: 30%;
+}
+
+.treatmentmain h3 {
+  /* font-family: "Inter", sans-serif; */
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 41px;
+  min-height: 82px;
+
+  /* margin-bottom: 26px; */
+  margin-bottom: 5px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+.treatmentmain p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 22px;
+  margin-bottom: 2px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+.treatmentmain h2 {
+  /* margin-top: 20px; */
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 22px;
+
+  margin-top: 0;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+.treatmentmain h2 span {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: rgba(0, 59, 97, 0.7);
+}
+
+.treatmentmain a {
+  margin-top: 20px;
+}
+
+ul.treatmentmanegement {
+  flex-wrap: wrap;
+}
+
+ul.treatmentmanegement li {
+  margin: 13px;
+}
+
+ul.treatmentmanegement {
+  margin: 0;
+}
+
+.viewpatientmain {
+  padding: 55px;
+}
+
+.viewpatienttitle h4 {
+  margin: 0;
+}
+
+.treatmentdetail {
+  padding: 40px;
+
+  text-align: center;
+  border-radius: 20px;
+  background: #f4f4f5;
+}
+
+.treatmentdetailtitle span {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 17px;
+  text-align: center;
+  color: #18181b;
+}
+
+.treatmentdetailtitle h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  /* font-family: "Inter", sans-serif; */
+  font-style: normal;
+  line-height: 53px;
+  margin-top: 8px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+}
+
+.treatmentdetailtitle p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 17px;
+  text-align: center;
+  color: #18181b;
+}
+
+.treatmentdetailtitle img {
+  margin-right: 6px;
+}
+
+.treatmentdetail {
+  margin: 30px;
+}
+
+.numberoftreatmentque {
+  overflow: auto;
+  height: 50vh;
+  text-align: left;
+}
+
+.numberoftreatmentque::-webkit-scrollbar {
+  display: none;
+}
+
+.treatmenttitle p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+.treatmenttitle input {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 98px;
+  padding: 10px;
+  letter-spacing: 0.05em;
+  opacity: 0.4;
+  color: #18181b;
+  border: 1px solid #18181e;
+  background: transparent;
+}
+
+.treatmenttitle .titleContainer {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  padding: 10px;
+  letter-spacing: 0.05em;
+  color: #3e81ad;
+  border: 1px solid #18181e;
+  background: transparent;
+}
+
+.treatmenttitle span {
+  position: absolute;
+  top: 26px;
+  right: 1px;
+  bottom: 13px;
+}
+
+.treatmenttitle {
+  position: relative;
+}
+
+ul.treatmentsubdetail {
+  padding: 0;
+  list-style: none;
+}
+
+ul.treatmentsubdetail li {
+  display: flex;
+}
+
+ul.treatmentsubdetail p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+  opacity: 0.4;
+  color: #18181b;
+}
+
+ul.treatmentsubdetail span {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  opacity: 0.7;
+  color: #18181b;
+}
+
+ul.treatmentsubdetail li {
+  padding: 15px 0;
+  border-bottom: 0.5px solid #ddd;
+}
+
+ul.treatmentsubdetail {
+  margin-top: 15px;
+}
+
+p.spraydetail {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  opacity: 0.4;
+  color: #18181b;
+}
+
+.sprayprofile {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-around; */
+
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #18181e;
+  border-radius: 10px;
+}
+
+.sprayprofile span {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #18181b;
+}
+
+.sprayprofile span p {
+  margin: 4px;
+
+  color: white;
+}
+
+.profilemain h4 {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+.profilemain p {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: rgba(0, 59, 97, 0.6);
+}
+
+.profilemain {
+  margin-top: 5px;
+  margin-left: 35px;
+}
+
+.treatmentdetailtitle {
+  margin-bottom: 45px;
+}
+
+.treatmentdis ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.treatmentdis li {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  padding: 14px 10px 14px 14px;
+  border: 1px solid #18181e;
+}
+
+.treatmentdis {
+  margin-left: 60px;
+}
+
+.treatmentdis h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 55px;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+.treatmentdis p {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 21px;
+  color: #18181b;
+}
+
+.treatmentdis span {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19px;
+  margin-left: 8px;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+ul.orderdetails {
+  padding: 0;
+  list-style: none;
+
+  text-align: left;
+}
+
+ul.orderdetails li {
+  display: flex;
+  align-items: center;
+}
+
+ul.orderdetails {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  text-align: left;
+}
+
+ul.orderdetails li {
+  display: flex;
+  align-items: center;
+}
+
+.treatmentdetail.confirmord {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+ul.orderdetails li {
+  justify-content: space-between;
+}
+
+ul.orderdetails {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  text-align: left;
+}
+
+ul.orderdetails li {
+  display: flex;
+  align-items: center;
+}
+
+.treatmentdetail.confirmord {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+ul.orderdetails li {
+  justify-content: space-between;
+}
+
+.orderimgdetail {
+  display: flex;
+  align-items: center;
+}
+
+.pilldetail h5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 6px;
+  letter-spacing: -0.05em;
+  color: #18181b;
+}
+
+.pilldetail p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  letter-spacing: -0.02em;
+  opacity: 0.7;
+  color: #18181b;
+}
+
+.orderimgdetail img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+ul.orderdetails li {
+  margin-bottom: 13px;
+  padding: 17px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f4f4f5;
+}
+
+ul.orderdetails {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  text-align: left;
+}
+
+ul.orderdetails li {
+  display: flex;
+  align-items: center;
+}
+
+.treatmentdetail.confirmord {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+ul.orderdetails li {
+  justify-content: space-between;
+}
+
+.orderimgdetail {
+  display: flex;
+  align-items: center;
+}
+
+.pilldetail h5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 6px;
+  letter-spacing: -0.05em;
+  color: #18181b;
+}
+
+.pilldetail p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  letter-spacing: -0.02em;
+  opacity: 0.7;
+  color: #18181b;
+}
+
+.orderimgdetail img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+ul.orderdetails li {
+  margin-bottom: 13px;
+  padding: 17px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f4f4f5;
+}
+
+.packagingpay {
+  text-align: right;
+}
+
+.packagingpay span {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 37px;
+  letter-spacing: -0.02em;
+  opacity: 0.7;
+  color: #18181b;
+  border-radius: 5px;
+  background: rgba(74, 113, 137, 0.19);
+}
+
+.ordersummry {
+  display: flex;
+  align-items: center;
+}
+
+.ordersummry span {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  margin-left: auto;
+  letter-spacing: -0.05em;
+  color: #18181b;
+}
+
+.ordersummry h2 span {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px !important;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+  color: #18181b;
+}
+
+.ordersummry h2 button {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+  color: #18181b;
+}
+
+.ordersummry h2 svg {
+  margin-right: 10px;
+}
+
+.order-mainsummry .accordion-item {
+  border: none;
+  border-bottom: 0.5px solid #ddd;
+  border-radius: 0 !important;
+  box-shadow: none;
+}
+
+.ordersummry {
+  border-bottom: 0.5px solid #ddd;
+}
+
+.ordertitle.discode {
+  display: flex;
+}
+
+.ordertitle.discode button {
+  padding: -0;
+}
+
+.ordertitle.discode .accordion-item h2 button {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  flex: none;
+  flex-grow: 0;
+  order: 0;
+  letter-spacing: -0.05em;
+  color: #18181b;
+}
+
+.ordertitle.discode .accordion-item {
+  margin: 0;
+}
+
+.ordertitle.discode .accordion-body {
+  padding: 10px 0;
+}
+
+.ordertitle.discode input {
+  width: 100%;
+  height: 43px;
+  padding: 8px;
+
+  border: 1px solid #18181e;
+  background: transparent;
+}
+
+.ordertitle.discode .accordion {
+  margin-left: auto !important;
+}
+
+.ordertitle.discode {
+  width: 100%;
+}
+
+.ordertitle.discode .accordion-item h2 button:after {
+  margin-left: auto;
+}
+
+.ordertitle.discode .accordion-item h2 button {
+  border: none !important;
+}
+
+.ordertitledis {
+  display: flex;
+  align-items: center;
+}
+
+.ordertitledis a {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  display: flex;
+  display: inline-flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: white;
+  border: none;
+  background: #0065c0;
+}
+
+button.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.ordertitle.discode {
+  display: flex;
+}
+
+.ordertitle.discode button {
+  padding: -0;
+}
+
+.ordertitle.discode .accordion-item h2 button {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  flex: none;
+  flex-grow: 0;
+  order: 0;
+  letter-spacing: -0.05em;
+  color: #18181b;
+}
+
+.ordertitle.discode .accordion-item {
+  margin: 0;
+}
+
+.ordertitle.discode .accordion-body {
+  padding: 10px 0;
+}
+
+.ordertitle.discode input {
+  width: 100%;
+  height: 43px;
+  padding: 8px;
+
+  border: 1px solid #18181e;
+  background: transparent;
+}
+
+.ordertitle.discode .accordion {
+  width: 100%;
+  margin-left: auto !important;
+}
+
+.ordertitle.discode {
+  width: 100%;
+}
+
+.ordertitle.discode .accordion-item h2 button:after {
+  margin-left: auto;
+}
+
+.ordertitle.discode .accordion-item h2 button {
+  border: none !important;
+}
+
+.ordertitledis {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+}
+
+.ordertitledis a {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  display: flex;
+  display: inline-flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: white;
+  border: none;
+  background: #0065c0;
+}
+
+.ordertitle.discode span {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  flex: none;
+  flex-grow: 0;
+  order: 0;
+  width: 50%;
+  letter-spacing: -0.05em;
+  color: #18181b;
+}
+
+.ordertitle.discode .accordion-item {
+  border-bottom: none;
+}
+
+.ordertitle.discode input {
+  font-size: 14px;
+}
+
+.ordertitle.discode input {
+  font-size: 14px;
+}
+
+.ordertitle.discode .accordion-item h2 {
+  border: none !important;
+}
+
+ul.subtotalorder {
+  margin: 0 84px;
+  padding: 0;
+  list-style: none;
+}
+
+ul.subtotalorder li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+ul.subtotalorder li p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+
+  margin: 0;
+  margin-left: auto;
+  letter-spacing: -0.02em;
+  color: #18181b;
+}
+
+ul.subtotalorder span {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #18181b;
+}
+
+.ordertitle.discode .accordion-item h2 button {
+  display: flex;
+  justify-content: end;
+
+  text-align: right !important;
+  box-shadow: none;
+}
+
+.ordertitle.discode .accordion-item h2 button:after {
+  margin-left: 20px;
+}
+
+.ordersummry .accordion-button::after {
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+}
+
+.ordertitle.discode .accordion-item h2 button:after {
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+}
+
+.ordersummry .accordion-button::after {
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+}
+
+.ordertitle.discode .accordion-item h2 button:after {
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+}
+
+.mainaccord {
+  width: 100%;
+}
+
+.ordertitle.discode {
+  margin-bottom: 13px;
+}
+
+ul.subtotalorder {
+  margin: 0 50px;
+}
+
+p.colorgreen {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px !important;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: -0.05em;
+  color: #259259 !important;
+}
+
+p.colorgreen {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px !important;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: -0.05em;
+  color: #259259 !important;
+}
+
+li.maintotal span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #18181b;
+}
+
+li.maintotal p {
+  font-size: 20px !important;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #18181b;
+}
+
+a.btnred:hover {
+  /* background: #18181B; */
+  color: white;
+}
+
+ul.chatmenu li a:hover {
+  border-radius: 8px;
+  background: #dce4ea;
+}
+
+.asidemain a.hover span {
+  opacity: 1;
+  color: #18181b !important;
+}
+
+ul.chatmenu li a:hover span {
+  color: #18181b;
+}
+
+/* ul.chatmenu li a:hover svg path {
+  fill: #18181B;
+} */
+
+ul.chatmenu li a svg path {
+  fill: #18181b;
+}
+
+a.bgtransparent:hover {
+  color: white;
+  background: #18181b;
+}
+
+.coptrights p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #18181b;
+}
+
+.coptrights {
+  left: 0;
+  /* position: absolute; */
+
+  width: 100%;
+}
+
+.activepatient {
+  position: relative;
+}
+
+.treatmenttitle h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 53px;
+  margin-bottom: 24px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+}
+
+.shayestreatment {
+  overflow: auto;
+
+  max-height: 30vh;
+}
+
+.shayestreatment ul {
+  padding: 0;
+  list-style: none;
+}
+
+.shayestreatment ul li {
+  display: flex;
+  align-items: center;
+}
+
+.shayestreatment ul li p {
+  margin: 0;
+  margin-left: auto;
+}
+
+.shayestreatment ul li span {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 17px;
+  text-align: center;
+  opacity: 0.7;
+  color: #000;
+}
+
+.shayestreatment ul li p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 17px;
+  text-align: center;
+  opacity: 0.7;
+  color: #000;
+}
+
+.shayestreatment {
+  margin-bottom: 24px;
+  padding: 20px 20px 10px 20px;
+
+  text-align: left;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.shayestreatment h5 {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 19px;
+  color: #18181b;
+}
+
+.shayestreatment p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 17px;
+  opacity: 0.7;
+  color: #000;
+}
+
+.shayestreatment ul li.border-top span {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  text-align: center;
+  color: #18181b;
+}
+
+.shayestreatment ul {
+  margin: 0;
+}
+
+.shayestreatment ul li.border-top p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  text-align: center;
+  color: #18181b;
+}
+
+.shayestreatment ul li {
+  padding: 10px 0;
+}
+
+.visamethod {
+  padding: 18px 30px;
+  border-radius: 10px;
+  background-color: #18181b;
+}
+
+.visamethod h5 {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.visamethod span {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.Paypalmethod {
+  padding: 0 30px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.Paypalmethod h5 {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #000;
+}
+
+.cardDetail {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  opacity: 0.4;
+  color: #18181b;
+}
+
+.cardDetailForm label {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+  color: #18181b;
+}
+
+.form-control {
+  background-color: transparent;
+}
+
+.cardDetailForm .form-control:focus {
+  border-color: #ced4da;
+  outline: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.paymentbtn {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  display: inline-flex;
+  align-items: center;
+  /* width: 100%; */
+  justify-content: center;
+  margin-top: 16px;
+  padding: 15px 45px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #f8f5f0;
+  border: none;
+  border-radius: 100px;
+  background: #0065c0;
+}
+
+.paymentbtn:hover {
+  color: white;
+  background: #18181b;
+}
+
+.btnred {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 15px 45px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #f8f5f0;
+  border: none;
+  border-radius: 100px;
+  background: #0065c0;
+}
+
+/* .btnreds:hover {
+  background: #18181B;
+  color: white;
+} */
+.btnblue {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 15px 45px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  /* text-transform: capitalize; */
+
+  color: #f8f5f0;
+  border: none;
+  border-radius: 100px;
+  background: #18181b;
+}
+
+.btnblue:hover {
+  color: #f8f5f0;
+}
+
+.btnreds {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #f8f5f0;
+  border: none;
+  border-radius: 50px;
+  background: #0065c0;
+}
+
+.value {
+  left: 0;
+  display: flex !important;
+  align-items: center !important;
+  padding: 10px;
+}
+
+.shynetreat {
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.shytext {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.shytext1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.shytext2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.shipping {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textcard {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+
+  color: #18181b;
+}
+
+.namecard {
+  font-size: 14px;
+  font-weight: 600;
+
+  text-align: left;
+}
+
+.nameinput {
+  width: 100%;
+  padding: 10px 10px 10px 14px;
+  color: #18181b;
+  border: 1px solid #18181e;
+  /* background-color: #F4F4F5; */
+}
+
+.crad1 {
+  background-color: #f4f4f5 !important;
+}
+
+.card_title1 {
+  font-weight: 400 !important;
+
+  color: #f4f4f5 !important;
+}
+
+.crad2 {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f4f4f5;
+}
+
+.treatscreen {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+@media (max-width: 440px) {
+  .treatmentdetailtitle h4 {
+    font-size: 28px !important;
+  }
+
+  .treatresponsive {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .resalltreat {
+    padding: 0 !important;
+  }
+
+  .profilemain h4 {
+    font-size: 16px !important;
+  }
+
+  .profilemain p {
+    font-size: 14px !important;
+  }
+}
+
+.mdl-stepper-horizontal-alternative
+  .mdl-stepper-step.active-step
+  .mdl-stepper-circle {
+  background-color: #0065c0 !important;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step {
+  padding: 1.5% 46px !important;
+}
+
+.mdl-card {
+  margin: 0 !important;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step .mdl-stepper-circle {
+  line-height: 1em !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 40px !important;
+  height: 40px !important;
+  color: transparent !important;
+  background-color: #9e9e9e !important;
+}
+
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:hover,
+.mdl-stepper-horizontal-alternative .mdl-stepper-step:active {
+  background-color: transparent !important;
+}
+
+/* .mdl-stepper-horizontal-alternative {
+  padding: 0 25% !important;
+} */
+
+@media (max-width: 1172px) {
+  .mdl-stepper-horizontal-alternative .mdl-stepper-step {
+    padding: 2.5% 21px !important;
+  }
+
+  .mdl-card {
+    width: auto !important;
+  }
+}
+
+/* @media (max-width: 542px) {
+  .payment_summary_staps .mdl-stepper-horizontal-alternative {
+    width: 75%;
+  }
+} */
+.panel-container {
+  margin-left: 90px;
+}
+
+@media (max-width: 1650px) {
+  .panel-container {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .panel-container {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .panel-container {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .panel-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .panel {
+    flex: 0 0 300px;
+    padding: 10px;
+  }
+
+  /* Add a class to move the panel to the left */
+  .panel.slide-left {
+    transform: translateX(-300px);
+  }
+
+  .mdl-stepper-horizontal-alternative .mdl-stepper-step {
+    padding: 2.5% 15px !important;
+  }
+}
+
+.cardDetailForm {
+  padding-left: 15px;
+}
+
+@media (max-width: 992px) {
+  .cardDetailForm {
+    padding-left: 0;
+  }
+}
+
+.resmt,
+.resmt1,
+.ressti {
+  margin-top: 47px !important;
+}
+
+.treatmentmain {
+  height: auto;
+}
+
+/* @media (min-width: 1441px) and (max-width: 1446px) {
+  .treatmentmain {
+    height: 342px;
+  }
+
+  .resmt1 {
+    margin-top: 6px !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1205px) {
+  .treatmentmain {
+    height: 342px;
+  }
+
+  .resmt1 {
+    margin-top: 6px !important;
+  }
+}
+
+@media (min-width: 1199px) and (max-width: 1360px) {
+  .treatmentmain {
+    height: 342px;
+  }
+
+  .resmt {
+    margin-top: 6px !important;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1722px) {
+  .treatmentmain {
+    height: 342px;
+  }
+
+  .resmt {
+    margin-top: 6px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .resmt1,
+  .resmt {
+    margin-top: 7px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1010px) {
+
+  .resmt1 {
+    margin-top: 29px !important;
+  }
+
+  .resmt {
+    margin-top: 29px !important;
+  }
+
+  .ressti {
+    margin-top: 69px !important;
+  }
+
+  .respe {
+    margin-top: 0px !important;
+  }
+
+  .resed {
+    margin-top: 44px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 924px) {
+
+  .resmt {
+    margin-top: 6px !important;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .resmt {
+    margin-top: 47px !important;
+  }
+
+  .ressti {
+    margin-top: 47px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 821px) {
+
+  .resmt1 {
+    margin-top: 7px !important;
+  }
+} */

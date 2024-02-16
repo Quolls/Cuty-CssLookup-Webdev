@@ -1,0 +1,764 @@
+.nexttratment.nexttreat.patientdash.updata {
+  height: 490px;
+  margin: 0;
+  margin: 0 14px;
+}
+
+.searchpatient input {
+  width: 408px;
+  height: 40px;
+  padding: 17px;
+  border: none;
+  border-radius: 17px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.document_show .mytreatmentd {
+  margin-top: 0;
+}
+
+header.dashheader .header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px 34px;
+  border-bottom: 1px solid #ededed;
+  background: #fff;
+}
+
+header.dashheader {
+  position: relative;
+  width: 100%;
+}
+
+.profilelogo {
+  display: flex;
+  align-items: center;
+}
+
+.document_header_links {
+  margin-left: 28px;
+}
+
+span.document_header_links_span {
+  margin-right: 30px !important;
+}
+
+.document_header_links a {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+
+  /* identical to box height */
+  letter-spacing: 0.05em;
+
+  /* Primary/2 */
+
+  color: #18181b;
+}
+
+.document_header_links a.active {
+  position: relative;
+}
+
+.document_header_links a.active::after {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  content: '';
+  transform: translateX(-50%);
+  border-radius: 6px;
+  background: #18181b;
+}
+
+.document_header_links a:hover {
+  color: #18181b;
+}
+
+.searchpatient {
+  position: relative;
+  z-index: 999999;
+  margin-left: auto;
+}
+
+.searchpatient span {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+
+header.dashheader {
+  z-index: 9;
+}
+
+.searchpatient input::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+input.filter-text {
+  position: absolute;
+  z-index: 999999999999999;
+  top: 18px;
+  right: 40px;
+  width: 370px;
+  height: 43px;
+}
+
+.nexttratment.nexttreat {
+  position: relative;
+}
+
+input.filter-text::placeholder {
+  color: transparent !important;
+}
+
+.data-table-extensions-action {
+  display: none;
+}
+
+.data-table-extensions-filter label {
+  display: none !important;
+}
+
+.rdt_TableHead {
+  border-radius: 0;
+  background: #18181b !important;
+}
+
+.rdt_TableHeadRow {
+  border-radius: 0;
+  background: #18181b;
+}
+
+.rdt_TableHeadRow div {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 22px;
+  color: white;
+  color: #f8f5f0;
+}
+
+.rdt_TableBody div {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  line-height: 14px !important;
+  letter-spacing: 0.05em !important;
+  color: #18181b !important;
+}
+
+.rdt_TableBody .rdt_TableRow {
+  background-color: #f4f4f5 !important;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.rdt_Table img {
+  margin-right: 10px !important;
+}
+
+.form-check {
+  margin-left: 30px;
+}
+
+.dashdetail {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.upload a {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding: 12px;
+  text-align: center !important;
+  border: 1px dashed rgba(204, 204, 204, 0.7);
+  border-radius: 4px;
+  background: rgba(180, 85, 93, 0.04);
+}
+
+.upload {
+  padding: 22px;
+}
+
+.upload a p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 17px;
+  margin: 0;
+  margin-top: 6px;
+  color: #18181b;
+}
+
+ul.uploaddata {
+  overflow: auto;
+  height: 146px;
+  padding: 0;
+  list-style: none;
+}
+
+ul.uploaddata li {
+  padding: 0 20px;
+}
+
+.uploaddetail {
+  padding: 15px 10px;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.uploaddetail a {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  margin-left: 10px;
+  color: #18181b;
+}
+
+ul.uploaddata li {
+  margin-bottom: 8px;
+}
+
+.patientprofileimg img {
+  width: 55px;
+  margin-right: 12px;
+}
+
+.patientprofileimg {
+  display: flex;
+  align-items: center;
+}
+
+.patientprofileimg img {
+  width: 50px;
+  margin-right: 12px;
+}
+
+.patientprofileimg {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.notiicon {
+  margin-left: auto;
+}
+
+.treatmentdetial ul li {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  margin-left: 0;
+  opacity: 0.8;
+  color: #f8f5f0;
+}
+
+.treatmentdetial ul {
+  padding: 0;
+  list-style: none;
+  color: #18181b;
+}
+
+.treatmentdetial ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.treatmentdetial p {
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+span.nextdate {
+  font-size: 15px;
+  opacity: 1;
+  color: #18181b !important;
+}
+
+.mytreatmentd ul.bell.noti {
+  position: relative;
+  top: 0;
+  width: 100%;
+  opacity: 1;
+}
+
+.mytreatmentd .notification {
+  overflow: hidden;
+}
+
+.headermenu {
+  width: 100%;
+}
+
+section.maindashboard {
+  background: #f8f5f0 !important;
+}
+
+section.maindashboard header {
+  background: #f8f5f0;
+}
+
+.profileinfo {
+  border: 1px solid #f8f5f0;
+  border-radius: 8px;
+  background: #f4f4f5;
+}
+
+.profiledetail h4 {
+  color: #18181b;
+}
+
+ul.bell.noti {
+  background: #f4f4f5;
+}
+
+.profilebasicdetail {
+  background: #f4f4f5;
+}
+
+.mytreatmentheading {
+  background: #f4f4f5;
+}
+
+ul.doctorinfo {
+  background: #f4f4f5;
+}
+
+ul.histroy {
+  background: #f4f4f5;
+}
+
+.upload a {
+  background: white !important;
+}
+
+ul.bell.noti {
+  background: #f4f4f5;
+  /* display: none; */
+}
+
+.profilebasicdetail {
+  background: #f4f4f5;
+}
+
+.mytreatmentheading {
+  background: #f4f4f5;
+}
+
+ul.doctorinfo {
+  background: #f4f4f5;
+}
+
+ul.histroy {
+  background: #f4f4f5;
+}
+
+.upload a {
+  background: white !important;
+}
+
+.chatscreen.admindashboard {
+  overflow: auto;
+}
+
+.dashdetail {
+  overflow: auto !important;
+}
+
+aside.asidemain {
+  height: 100%;
+}
+
+.chatscreen {
+  height: 100%;
+}
+
+.chatscreen.admindashboard .col-lg-2 {
+  position: fixed;
+  height: 100%;
+}
+
+.chatscreen .col-lg-10 {
+  margin-left: auto;
+}
+
+/* section.maindashboard header {
+  width: calc(100% - 320px);
+} */
+
+ul.setting p {
+  color: #18181b !important;
+}
+
+.profilebasicdetail {
+  border: 1px solid #f8f5f0;
+}
+
+.mytreatmentd {
+  border: 1px solid #f8f5f0;
+  border-radius: 8px;
+}
+
+.mytreatmentheading a {
+  color: white;
+}
+
+.weekname a {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  width: 217px;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #f8f5f0;
+  border-radius: 131px;
+  background: #0065c0;
+}
+
+.mytreatmentheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.mytreatmentheading h4 {
+  /* font-family: "Inter", sans-serif !important; */
+  font-family: 'Inter', sans-serif;
+  font-size: 24px !important;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  text-align: left;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+}
+
+.mytreatmentheading2 h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+}
+
+.mytreatmentheading3 h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+}
+
+.mytreatmentheading a {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 17px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  width: 238px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+  border-radius: 131px;
+  background: #0065c0;
+}
+
+ul.doctorinfo {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  padding: 24px;
+  list-style: none;
+}
+
+li.docmain {
+  width: 33% !important;
+  text-align: center;
+}
+
+ul.doctorinfo li {
+  width: 63%;
+  margin-left: auto;
+}
+
+.docdetail h5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px !important;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 21px;
+  margin-bottom: 2px;
+  text-align: center;
+  color: #18181b;
+}
+
+.docdetail img {
+  margin-bottom: 12px;
+}
+
+.docdetail p {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  text-align: center;
+  opacity: 0.6;
+  color: #18181b;
+}
+
+.docdetail h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 54px;
+  margin-bottom: 0;
+  color: #18181b;
+}
+
+section.maindashboard {
+  background: transparent !important;
+}
+
+.mytreatmentd .mytreatmentheading {
+  background: transparent;
+}
+
+ul.pennding {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.profileinfo {
+  padding: 82px 27px;
+  text-align: center;
+}
+
+.profiledetail h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 21px;
+  margin-bottom: 4px;
+  text-align: center;
+  color: #18181b;
+}
+
+.profiledetail p {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  text-align: center;
+  color: #18181b;
+}
+
+.profileinfo .profiledetail {
+  margin-bottom: 12px;
+}
+
+ul.pennding h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 21px;
+  margin-bottom: 4px;
+  text-align: center;
+  color: #18181b;
+}
+
+ul.pennding p {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  margin: 0;
+  text-align: center;
+  color: #18181b;
+}
+
+.profileinfo img {
+  margin-bottom: 12px;
+}
+
+.profilebasicdetail {
+  padding: 24px;
+  padding-bottom: 0;
+  border: 1px solid #18181b;
+}
+
+ul.basicdetail {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dashdetail {
+  position: relative;
+  max-width: 1600px;
+  margin: auto;
+  /* z-index: -9999 !important; */
+}
+
+ul.uploaddata {
+  height: 146px;
+}
+
+.upload a {
+  position: relative;
+}
+
+.upload a input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+ul.showdoc {
+  padding: 0;
+  padding: 14px 30px;
+  list-style: none;
+  border-radius: 10px 10px;
+  background: #f4f4f5;
+}
+
+ul.showdoc li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.showdoc li p {
+  margin: 0;
+}
+
+.pdfname {
+  display: flex;
+  align-items: center;
+}
+
+.pdfname h5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 35px;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+p.size,
+p.datepdf {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 21px;
+  text-align: center;
+  opacity: 0.6;
+  color: #18181b;
+}
+
+.btnsseepdf a {
+  margin-left: 30px;
+}
+
+ul.showdoc {
+  margin-top: 50px;
+}
+
+ul.showdoc {
+  overflow: auto;
+  height: 440px;
+  margin-top: 30px;
+}
+
+ul.showdoc li {
+  padding: 17px 0;
+}

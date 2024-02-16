@@ -61,7 +61,7 @@ def clear_and_upload_css(folder_path):
 
 
 # 在应用启动时处理 CSS 文件
-folder_path = './cssfiles'  # 更改为你的 CSS 文件夹路径
+folder_path = './algorx'  # 更改为你的 CSS 文件夹路径
 # ****************************************************************
 # first loading, add data to database
 # ****************************************************************

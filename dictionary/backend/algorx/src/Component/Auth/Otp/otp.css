@@ -1,0 +1,66 @@
+.loginuserdetail.otp h3 {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.loginuserdetail.otp p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    /* Primary/4 */
+
+    color: #F8F5F0;
+    margin-bottom: 70px;
+}
+
+.userInput {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.userInput input {
+    border-bottom: 1px solid rgb(248 245 240 / 50%) !important;
+    width: 36px;
+    background: transparent;
+    border: none;
+    margin-right: 20px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #F8F5F0;
+}
+
+.inputClass{
+    width: 1.2em !important;
+}
+.btnwhite{
+    background: white;
+padding: 15px 45px;
+border-radius: 100px;
+font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+border: none;
+display: inline-flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+color: black;
+text-decoration: none;
+margin-top: 50px;
+}

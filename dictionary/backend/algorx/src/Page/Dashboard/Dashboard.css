@@ -1,0 +1,1079 @@
+section.maindashboard {
+  background: #18181b;
+}
+
+header {
+  display: flex;
+}
+
+button.searchbtn.d-flex.align-items-center {
+  border: none !important;
+}
+
+.headermenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.dashboardmenu {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+ul.dashboardmenu li {
+  margin: 0 10px;
+}
+
+.headermenu a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+  text-decoration: none;
+}
+
+ul.setting {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+ul.setting li {
+  margin: 0px 10px;
+}
+
+ul.setting a span {
+  margin-left: 10px;
+}
+
+/* section.maindashboard header {
+  padding: 20px 0px;
+  background: #18181B;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 8%);
+  margin-bottom: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+} */
+
+ul.pennding {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.profileinfo {
+  text-align: center;
+  border: 1px solid #18181b;
+  padding: 24px 27px;
+}
+
+.profiledetail h4 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #18181b;
+  margin-bottom: 4px;
+}
+
+.profiledetail p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #18181b;
+}
+
+.profileinfo .profiledetail {
+  margin-bottom: 12px;
+}
+
+ul.pennding h4 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #18181b;
+  margin-bottom: 4px;
+}
+
+ul.pennding p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #18181b;
+  margin: 0;
+}
+
+.profileinfo img {
+  margin-bottom: 12px;
+}
+
+.profilebasicdetail {
+  border: 1px solid #18181b;
+  padding: 24px;
+  padding-bottom: 0;
+}
+
+ul.basicdetail {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+ul.basicdetail li {
+  width: 50%;
+}
+
+.prodetails span {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #18181b;
+  opacity: 0.8;
+  margin-bottom: 2px;
+}
+
+.prodetails p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #18181b;
+}
+
+.prodetails {
+  margin-bottom: 27px;
+}
+
+.div a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #18181b;
+  text-decoration: none;
+}
+
+.profilebasicdetail {
+  position: relative;
+}
+
+a.editimg {
+  position: absolute;
+  right: 30px;
+}
+
+.mytreatmentd {
+  border: 1px solid #18181b;
+  margin-top: 24px;
+  background: #f4f4f5;
+}
+
+.mytreatmentd .No_Doctor_Assigned {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #18181b;
+}
+
+.mytreatmentheading {
+  padding: 12px 16px;
+  border-bottom: 1px solid #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mytreatmentheading h4 {
+  /* font-family: "Inter", sans-serif !important; */
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px !important;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+  margin: 0;
+}
+
+.mytreatmentheading2 h4 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+  margin: 0;
+}
+
+.mytreatmentheading3 h4 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+  margin: 0;
+}
+
+.mytreatmentheading a {
+  background: #0d6efd;
+  border-radius: 131px;
+  width: 238px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #18181b;
+  text-decoration: none;
+}
+
+ul.doctorinfo {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  padding: 24px;
+  align-items: center;
+}
+
+li.docmain {
+  width: 33% !important;
+  text-align: center;
+}
+
+ul.doctorinfo li {
+  width: 63%;
+  margin-left: auto;
+}
+
+.docdetail h5 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px !important;
+  line-height: 21px;
+  text-align: center;
+  color: #18181b;
+  margin-bottom: 2px;
+}
+
+.docdetail img {
+  margin-bottom: 12px;
+}
+
+.docdetail p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #18181b;
+  opacity: 0.6;
+}
+
+.docdetail h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 54px;
+  color: #18181b;
+  margin-bottom: 0;
+}
+
+.weekname span {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #18181b;
+  margin: 0 10px;
+}
+
+.treatmenttimeheading span {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #18181b;
+}
+
+.treatmenttimeheading span img {
+  margin-left: 10px;
+}
+
+.treatmentdetial span {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+  opacity: 0.4;
+  margin-bottom: 2px;
+}
+
+.treatmenttimeheading {
+  margin-bottom: 21px;
+}
+
+.treatmentdetial p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #18181b;
+}
+
+.treatmentdetial li a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+li.link {
+  width: 100%;
+  margin-left: 15px !important;
+  list-style: disc;
+  color: #18181b;
+}
+
+li.link a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+  text-decoration: none;
+}
+
+ul.histroy {
+  padding: 0;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+ul.histroy li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  height: 45px;
+  padding: 0 17px 0px 7px;
+  margin-bottom: 8px;
+}
+
+.histroydetail span {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+
+.histroydetail img {
+  margin-right: 8px;
+}
+
+ul.histroy ul.histroy span {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #18181b !important;
+}
+
+ul.histroy {
+  padding-bottom: 10px;
+}
+
+ul.histroy span {
+  color: #18181b;
+}
+
+ul.histroy span {
+  color: #18181b;
+}
+
+.histroydetail span {
+  color: #000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #18181b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b6b4bd;
+}
+
+.histroydetail span {
+  color: #000000 !important;
+}
+
+ul.histroy {
+  height: 300px;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul.bell {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  padding-top: 13px;
+}
+
+ul.bell li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 44px;
+  padding-right: 19px;
+  margin-bottom: 27px;
+}
+
+ul.bell p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #18181b;
+  margin: 0;
+}
+
+ul.bell li {
+  position: relative;
+}
+
+ul.bell p span {
+  background: red;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  margin-right: 15px;
+  position: relative;
+}
+
+ul.bell li {
+  padding-left: 23px;
+}
+
+ul.bell p span:after {
+  /* content: ""; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(180 85 93 / 40%);
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.disabled p {
+  opacity: 50%;
+}
+
+.disabled .notiicon {
+  opacity: 50%;
+}
+
+ul.bell {
+  position: relative;
+}
+
+ul.bell p span {
+  z-index: 99999;
+}
+
+.notificationn {
+  overflow: auto;
+}
+
+.dashdetail {
+  padding-top: 140px;
+  padding-bottom: 40px;
+}
+
+.upload a {
+  background: rgba(180, 85, 93, 0.04);
+  border: 1px dashed rgba(204, 204, 204, 0.7);
+  border-radius: 4px;
+  overflow: hidden;
+  width: 100%;
+  text-align: center !important;
+  display: block;
+  padding: 12px;
+}
+
+.upload {
+  padding: 22px;
+}
+
+.upload a p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #18181b;
+  margin: 0;
+  margin-top: 6px;
+}
+
+ul.uploaddata {
+  padding: 0;
+  list-style: none;
+  height: 146px;
+  overflow: auto;
+}
+
+ul.uploaddata li {
+  padding: 0 20px;
+}
+
+.uploaddetail {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 15px 10px;
+}
+
+.uploaddetail a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #18181b;
+  margin-left: 10px;
+}
+
+ul.uploaddata li {
+  margin-bottom: 8px;
+}
+
+.patientprofileimg img {
+  width: 55px;
+  margin-right: 12px;
+}
+
+.patientprofileimg {
+  display: flex;
+  align-items: center;
+}
+
+.patientprofileimg img {
+  width: 50px;
+  margin-right: 12px;
+}
+
+.patientprofileimg {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.notiicon {
+  margin-left: auto;
+}
+
+.treatmentdetial ul li {
+  margin-left: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #f8f5f0;
+  opacity: 0.8;
+  margin-bottom: 2px;
+}
+
+.treatmentdetial ul {
+  padding: 0;
+  list-style: none;
+  color: #18181b;
+}
+
+.treatmentdetial ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.treatmentdetial p {
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+span.nextdate {
+  font-size: 15px;
+  color: #18181b !important;
+  opacity: 1;
+}
+
+.mytreatmentd ul.bell.noti {
+  position: relative;
+  top: 0;
+  opacity: 1;
+  width: 100%;
+}
+
+.mytreatmentd .notificationn {
+  overflow: hidden;
+}
+
+.headermenu {
+  width: 100%;
+}
+
+section.maindashboard {
+  background: #fafafa !important;
+}
+
+section.maindashboard header {
+  background: #f8f5f0;
+}
+
+.profileinfo {
+  background: #f4f4f5;
+  border: 1px solid #f8f5f0;
+  border-radius: 8px;
+}
+
+.profiledetail h4 {
+  color: #18181b;
+}
+
+ul.bell.noti {
+  background: #f4f4f5;
+}
+
+.profilebasicdetail {
+  background: #f4f4f5;
+}
+
+.mytreatmentheading {
+  background: #f4f4f5;
+}
+
+ul.doctorinfo {
+  background: #f4f4f5;
+}
+
+ul.histroy {
+  background: #f4f4f5;
+}
+
+.upload a {
+  background: white !important;
+}
+
+ul.bell.noti {
+  background: #f4f4f5;
+}
+
+.profilebasicdetail {
+  background: #f4f4f5;
+}
+
+.mytreatmentheading {
+  background: #f4f4f5;
+}
+
+ul.doctorinfo {
+  background: #f4f4f5;
+}
+
+ul.histroy {
+  background: #f4f4f5;
+}
+
+.upload a {
+  background: white !important;
+}
+
+.chatscreen.admindashboard {
+  overflow: auto;
+}
+
+.dashdetail {
+  overflow: auto !important;
+}
+
+aside.asidemain {
+  height: 100%;
+  border-right: rgba(0, 0, 0, 0.05) solid 1px;
+}
+
+.chatscreen {
+  height: 100%;
+}
+
+.chatscreen.admindashboard .col-lg-2 {
+  position: fixed;
+  height: 100%;
+}
+
+.chatscreen .col-lg-10 {
+  margin-left: auto;
+}
+
+/* section.maindashboard header {
+  width: calc(100% - 320px);
+} */
+
+ul.setting p {
+  color: #18181b !important;
+}
+
+.profilebasicdetail {
+  border: 1px solid #f8f5f0;
+}
+
+.mytreatmentd {
+  border: 1px solid #f8f5f0;
+}
+
+.mytreatmentheading a {
+  color: white;
+}
+
+.weekname a {
+  background: #0d6efd;
+  border-radius: 131px;
+  width: 217px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #f8f5f0;
+  margin: auto;
+}
+
+.upload input {
+  text-align: center;
+  border: 1px dashed rgba(204, 204, 204, 0.7);
+  border-radius: 4px;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  text-align: center !important;
+  display: block;
+  padding: 12px;
+  height: 80px;
+}
+
+.upload input::file-selector-button {
+  display: none;
+}
+
+.upload {
+  background-color: #ffffff;
+  position: relative;
+  height: 80px;
+  margin: 22px;
+  padding: 0px !important;
+}
+
+.upload .file_img {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.upload .file_img p {
+  margin-bottom: 0px;
+  color: #000;
+}
+
+.upload input[type='file'] {
+  color: rgba(0, 0, 0, 0);
+}
+
+.uploadget {
+  width: 100% !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: 212529 !important;
+}
+
+.Regular-flids {
+  padding: 20px;
+}
+
+.Regular-flids span {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  color: #18181b;
+  opacity: 0.8;
+}
+
+.regular_doctor_modal .modal-content {
+  padding: 0px;
+  background-color: transparent !important;
+}
+
+.regular_doctor_modal .modal-content .modal-header {
+  background-color: #ffffff !important;
+}
+
+.regular_doctor_modal .modal-content .modal-header .modal-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #18181b;
+}
+
+.regular_doctor_modal .modal-content .modal-body {
+  background-color: #f4f4f5 !important;
+}
+
+.medicininput input {
+  width: 100%;
+  border: 1px solid #18181e;
+  height: 47px;
+  padding: 14px 10px 14px 14px;
+}
+
+.modal-body .medicininput span {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  margin: 5px 0px;
+  color: #18181e;
+}
+
+.btnredsubmit button {
+  background: #0d6efd;
+  border-radius: 131px;
+  width: 190px;
+  height: 50px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* text-align: center; */
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #f8f5f0;
+  border: none;
+}
+
+.alg .modal-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: 1 solid #dee2e6;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: white;
+  color: #18181b;
+}
+
+.alg .modal-content {
+  padding: 0 !important;
+}
+
+.alg-input {
+  background-color: transparent !important;
+  color: #18181b !important;
+  border-color: #18181b !important;
+}
+
+.alg-input:focus {
+  background-color: transparent !important;
+  color: #18181e !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: #18181e !important;
+}
+
+input[type='radio'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #18181e;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+input[type='radio']::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+/* Change the color when the radio button is checked */
+input[type='radio']:checked::before {
+  /* Replace with your desired color */
+}
+
+.kQhARV {
+  background-color: #f4f4f5 !important;
+}
+
+.ecKTem {
+  background-color: #f4f4f5 !important;
+}
+
+.customer_support_wrapper {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  z-index: 1;
+}
+
+.medicininput textarea {
+  width: 100%;
+  border-radius: 0px;
+  border: 1px solid #18181b;
+  background: white;
+  color: #f4f4f5;
+  padding: 14px 10px 14px 14px;
+}
