@@ -1,2 +1,0 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection*{cssfiles\Payment.css (cssfiles\Payment.css)}
