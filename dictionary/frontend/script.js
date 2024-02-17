@@ -76,31 +76,71 @@ function displayResults (results) {
 
 // gpt function
 function addFunctionText (element) {
-  // 获取被点击的 css_name
   const cssName = element.textContent.trim()
+  const resultItem = element.closest('.result-item')
 
-  // 使用 fetch 发送 POST 请求到后端
-  fetch('http://localhost:5201/get_css_content', {
+  // 创建并显示加载图标
+  const loader = document.createElement('div')
+  loader.className = 'loader'
+  resultItem.appendChild(loader)
+
+  fetch('https://111.229.182.252:5123/get_css_content', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({ css_name: cssName }) // 发送 css_name 作为请求体
+    body: JSON.stringify({ css_name: cssName })
   })
     .then(response => response.json())
     .then(data => {
-      // 创建一个新的p元素，用于显示返回的内容
+      // 移除加载图标
+      resultItem.removeChild(loader)
+
+      const content = data.content || 'No content found.'
+      // const resultItem = element.closest('.result-item')
+
       const functionText = document.createElement('p')
-      functionText.textContent = `Function: ${
-        data.content || 'No content found.'
-      }`
-      functionText.style.border = '2px solid #2a9d8f'
+      functionText.innerHTML = `${content}` // 处理 HTML 格式内容
+      functionText.style.border = '1px solid #2a9d8f'
       functionText.style.padding = '5px'
-      functionText.style.marginTop = '10px'
-      // 在当前方框内的最下面添加这个新的p元素
-      element.closest('.result-item').appendChild(functionText)
+      functionText.style.marginTop = '5px'
+      // 设置高度和溢出行为以启用内联滚动条
+      functionText.style.height = '160px' // 可根据需要调整高度
+      functionText.style.overflowY = 'auto' // 当内容超出指定高度时显示垂直滚动条
+      resultItem.appendChild(functionText)
+
+      // 创建并添加样式化的Save按钮
+      const saveButton = document.createElement('button')
+      saveButton.textContent = 'Keep it!'
+      saveButton.style.padding = '10px 20px'
+      saveButton.style.fontSize = '16px'
+      saveButton.style.backgroundColor = '#2a9d8f'
+      saveButton.style.color = 'white'
+      saveButton.style.border = 'none'
+      saveButton.style.borderRadius = '5px'
+      saveButton.style.cursor = 'pointer'
+      saveButton.style.display = 'block'
+      saveButton.style.margin = '10px auto'
+      resultItem.appendChild(saveButton)
+
+      saveButton.onclick = function () {
+        fetch('https://111.229.182.252:5123/save_css_function', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ css_name: cssName, function: content })
+        })
+          .then(response => response.json())
+          .then(data => alert(data.message))
+          .catch(error => console.error('Error:', error))
+      }
     })
-    .catch(error => console.error('Error:', error))
+    .catch(error => {
+      console.error('Error:', error)
+      // 移除加载图标并可能显示错误信息
+      resultItem.removeChild(loader)
+    })
 }
 
 function toggleDropdown (element) {
@@ -119,8 +159,8 @@ function fetchApi (word) {
   wrapper.classList.remove('active')
   infoText.style.color = '#000'
   infoText.innerHTML = `Searching for CSS rules that match <span>"${word}"</span>`
-  // let url = `http://111.229.182.252:5201/search_css` // 更新为你的 Flask 应用的新路由
-  let url = 'http://localhost:5201/search_css'
+  let url = `https://111.229.182.252:5123/search_css` // 更新为你的 Flask 应用的新路由
+  // let url = 'http://localhost:5201/search_css'
   fetch(url, {
     method: 'POST',
     headers: {

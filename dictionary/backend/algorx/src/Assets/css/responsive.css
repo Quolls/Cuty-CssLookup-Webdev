@@ -1,0 +1,2768 @@
+@media only screen and (min-width: 1999px) and (max-width: 2999px) {
+
+  body section.condition.erectile,
+  section.maindashboard {
+    height: 100vh !important;
+  }
+
+  section .signuplink {
+    margin-top: 150px;
+    position: relative;
+    bottom: 0;
+  }
+
+  body .loginimg {
+    height: 100vh;
+  }
+
+  body .logindetails {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  body .logindetails p {
+    width: 100%;
+  }
+
+  body .logindetails img {
+    margin: 150px;
+  }
+
+  body section.login {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  section .loginimglogo img {
+    width: 190px;
+  }
+
+  section .headinglogin h3 {
+    font-size: 84px;
+    line-height: initial;
+  }
+
+  body section .logindetails {
+    margin-top: -100px !important;
+  }
+
+  body section .logindetails img {
+    margin: 0;
+    width: 560px;
+  }
+
+  body .logindetails p {
+    margin-top: -480px;
+    font-size: 32px;
+  }
+
+  section .loginuserdetail h3 {
+    font-size: 80px;
+    line-height: initial;
+  }
+
+  section .userinput span {
+    font-size: 29px;
+    line-height: initial;
+  }
+
+  section .userinput input {
+    height: 92px;
+  }
+
+  section .forgott h6,
+  section .signuplink p,
+  section .signuplink p a,
+  section .treatmenttimeheading span {
+    font-size: 24px;
+  }
+
+  section .btnred {
+    font-size: 27px;
+    height: 80px;
+  }
+
+  section .conditionsub.title h3 {
+    font-size: 90px;
+  }
+
+  /* section .male label {
+    font-size: 29px;
+    width: 620px !important;
+    padding: 50px 50px 50px 30px;
+    height: auto;
+  } */
+
+  section .conditioninfo {
+    max-width: 1300px;
+  }
+
+  /* section .btnnext .nextBtn,
+  section .btnnext button {
+    height: 90px;
+    width: 260px;
+    font-size: 25px;
+  } */
+
+  section .btnnext .nextBtn svg,
+  section .btnnext button svg {
+    width: 24px;
+    height: 21px;
+  }
+
+  section .male label:after {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  /* section .conditionsub h3 {
+    font-size: 50px;
+  } */
+
+  section .dropdown {
+    margin: 0 20px !important;
+  }
+
+  section .paymentheading h3 {
+    font-size: 90px;
+    line-height: initial;
+  }
+
+  section .docdetail p,
+  section .profiledetail span,
+  section ul.pennding h4 {
+    font-size: 27px;
+    line-height: initial;
+  }
+
+  section .profiledetail span svg,
+  section .treatmenttimeheading span img {
+    width: 30px;
+    height: 30px;
+  }
+
+  section .profiledetail input {
+    height: 90px;
+    font-size: 28px;
+  }
+
+  section .payinfo p {
+    font-size: 28px;
+  }
+
+  section .docdetail h5,
+  section .payinfo h6,
+  section .treatmentdetial p {
+    font-size: 24px;
+    line-height: initial;
+  }
+
+  section p.mb-0.pb-0.text-white {
+    font-size: 27px;
+  }
+
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl,
+  section .container {
+    max-width: 2120px;
+  }
+
+  section .headermenu a,
+  section .weekname span {
+    font-size: 25px;
+  }
+
+  section ul.dashboardmenu img {
+    width: 210px;
+  }
+
+  section section.maindashboard img {
+    width: 1;
+  }
+
+  section .profileinfo img {
+    width: 207px;
+  }
+
+  section .profiledetail p {
+    font-size: 24px;
+    line-height: initial;
+  }
+
+  section li.link a,
+  section ul.pennding p {
+    font-size: 23px;
+  }
+
+  section .mytreatmentheading h4 {
+    font-size: 70px;
+    line-height: initial;
+  }
+
+  section .mytreatmentheading a {
+    height: 80px;
+    font-size: 27px;
+    width: auto;
+    padding: 10px 30px;
+  }
+
+  section .docdetail img {
+    width: 240px;
+  }
+
+  section .treatmentdetial span,
+  section ul.histroy span {
+    font-size: 20px;
+    line-height: initial;
+  }
+
+  section .histroydetail img {
+    width: 30px;
+  }
+
+  section ul.histroy {
+    height: 500px;
+  }
+
+  section ul.bell p {
+    font-size: 22px;
+  }
+
+  section .upload img {
+    width: 60px;
+  }
+
+  section .upload p {
+    font-size: 20px !important;
+  }
+
+  section .uploaddetail span {
+    font-size: 20px;
+  }
+
+  section ul.uploaddata {
+    height: 560px !important;
+  }
+
+  section .prodetails span {
+    font-size: 22px;
+    line-height: initial;
+  }
+
+  section .borderdiv,
+  section .conditionmain {
+    margin: 0 120px;
+  }
+}
+
+/* 1600 */
+@media only screen and (max-width: 1799px) {
+
+  body .chatscreen.admindashboard.notificmain .activepatient {
+    width: auto !important;
+  }
+
+  body .activepatient {
+    width: 100%;
+    margin-left: auto;
+  }
+
+  /* aside.asidemain {
+    position: fixed !important;
+  } */
+
+  .chatscreen,
+  .chatscreen .col-lg-10,
+  .termsandconditions {
+    overflow: auto !important;
+  }
+
+  .chatscreen {
+    overflow: auto;
+  }
+
+  body .dashinfo {
+    height: auto !important;
+  }
+
+  /* body .profilelogo span { */
+  /* margin-left: 20px !important; */
+  /* margin: auto; */
+  /* } */
+  .chatscreen.admindashboard.view_order .viewpatientmain.inner_div_dashboard {
+    padding: 30px;
+  }
+
+  .dashinfo {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1999px) {
+  p.notification_web_app_inner_div {
+    margin-right: 20px !important;
+  }
+
+  section.maindashboard {
+    height: auto !important;
+  }
+
+  ul.histroy {
+    height: 300px !important;
+  }
+
+  ul.uploaddata {
+    height: 146px !important;
+  }
+
+  body .loginimg {
+    height: 100vh;
+  }
+
+  body .logindetails {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  body .logindetails p {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  body .logindetails img {
+    margin: 0;
+  }
+
+  body section.login {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .logindetails img {
+    margin-bottom: 28px !important;
+  }
+}
+
+/* 1440 */
+@media only screen and (max-width: 1599px) {
+
+  .asidechat {
+    padding-top: 0;
+  }
+
+  .treat_mend_list_main_sec .activepatient,
+  .patient_order_main_sec .activepatient {
+    margin-left: 0;
+    margin-right: 0 !important;
+    width: 100%;
+  }
+
+
+  a.sidebar_menu_link.text-white.ms-2.cursor-pointer {
+    margin-left: 4px !important;
+  }
+
+  .viewpatientmain.inner_div_dashboard {
+    padding-right: 15px;
+  }
+
+
+  .entermsgsend {
+    margin: 0;
+    background: #fff;
+    padding: 50px 10px !important;
+    bottom: 50px;
+  }
+
+  .msgsend ul.chat {
+    margin-bottom: 100px !important;
+    overflow: auto !important;
+  }
+
+  .docdetail h5 {
+    font-size: 16px !important;
+  }
+
+  section.condition {
+    height: auto !important;
+    /* height: 768px !important; */
+  }
+
+  .conditioninfo {
+    margin-bottom: 70px !important;
+  }
+
+  li.sidebar.open {
+    margin-left: -290px !important;
+  }
+
+  section.maindashboard header {
+    width: -webkit-fill-available !important;
+    /* z-index: -9 !important; */
+    /* width: calc(100% - 16%) !important; */
+  }
+
+  .termsandconditions {
+    margin: 20px !important;
+  }
+
+  .dashdetail {
+    padding-top: 110px !important;
+  }
+
+  .chatwithdoctor,
+  li.btnlogout {
+    position: relative !important;
+  }
+
+  ul.chatmenu {
+    margin-top: 10px !important;
+  }
+
+  .totalpatien h5,
+  ul.chat {
+    margin: 0 !important;
+  }
+
+  ul.chatmenu li a span {
+    font-size: 14px !important;
+  }
+
+  .patientmainbox {
+    padding: 20px !important;
+    height: 110px !important;
+  }
+
+  .totalpatien {
+    margin-left: 13px !important;
+  }
+
+  .totalpatien h5 {
+    font-size: 18px !important;
+  }
+
+  .patientmainbox svg {
+    width: 38px !important;
+    height: 38px !important;
+  }
+
+  .treatmentheading h3 {
+    font-size: 24px !important;
+  }
+
+
+}
+
+@media only screen and (max-width: 1540px) {
+  ul.chatmenu li a {
+    padding: 10px 20px !important;
+  }
+
+  /* .chatscreen.admindashboard aside.asidemain {
+    width: 240px !important;
+    position: absolute !important;
+  } */
+
+  .col-lg-10 {
+    position: relative;
+    z-index: -9;
+  }
+
+  /* body .chatscreen.admindashboard header.chatheader {
+    z-index: -9 !important;
+    position: relative;
+    width: calc(100% - 200px);
+  } */
+
+  .chatscreen.admindashboard a.sideicon span svg {
+    fill: white;
+  }
+
+  .chatscreen.admindashboard.active a.sideicon span svg {
+    fill: black;
+  }
+
+  .chatscreen.admindashboard.active .col-lg-2 {
+    transform: translatex(0);
+    width: 280px;
+  }
+
+  .chatscreen.admindashboard.active aside.asidemain {
+    left: 0;
+    width: 100% !important;
+    transform: translateX(-100%);
+  }
+
+  /* .chatscreen.admindashboard .col-lg-10 {
+    width: 100%;
+  } */
+
+  ul.bell p {
+    text-align: left !important;
+  }
+
+  ul.doctorinfo li {
+    width: 100% !important;
+    margin-left: 13px !important;
+  }
+
+  .weekname a {
+    width: 100% !important;
+    font-size: 12px !important;
+  }
+
+  li.docmain {
+    width: 50% !important;
+  }
+
+  .profileinfo {
+    padding: 10px;
+  }
+
+  .profiledetail p {
+    word-break: break-all;
+  }
+
+  .button,
+  .profilename p,
+  a.btnaddplan,
+  a.btnred,
+  body .dothepatient ul.selecttab label,
+  body .profiledetail input,
+  p.text {
+    font-size: 14px !important;
+  }
+
+  /* body .profilelogo span {
+    margin: auto;
+  } */
+
+  body .dashinfo {
+    overflow: hidden;
+  }
+
+  body .activepatient {
+    width: calc(100% - 40px);
+    margin-top: 0 !important;
+  }
+
+  body .dothepatient h4 {
+    font-size: 16px !important;
+  }
+
+  body .titlepatient h4 {
+    font-size: 32px !important;
+  }
+
+  .msgsend.mainchat {
+    overflow: auto !important;
+    margin-top: 0 !important;
+  }
+
+  .mainchat .entermsgsend {
+    bottom: 0 !important;
+  }
+
+  .chatscreen {
+    overflow: auto;
+  }
+
+  aside.asidemain {
+    height: 100%;
+  }
+
+  .profileinfochat h4 {
+    font-size: 12px !important;
+  }
+
+  .profileinfochat {
+    margin-left: 6px !important;
+  }
+
+  ul.chatlist li a {
+    padding: 10px 10px 0 !important;
+  }
+
+  .viewpatientmain {
+    padding-left: 20px !important;
+  }
+
+  ul.patientprofile li:first-child {
+    width: 40% !important;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .chatscreen .col-lg-10 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .asidechat {
+    padding-top: 0 !important;
+  }
+
+  .chatscreen.admindashboard .col-lg-2 {
+    display: none;
+  }
+}
+
+/* 1200 */
+@media only screen and (max-width: 1429px) {
+  ul.profilepatientsubdetail li {
+    width: 42% !important;
+  }
+
+  .chat_screen_mobile .msgsends {
+    height: 77vh !important;
+  }
+
+  .chatscreen.admindashboard.conform_orders {
+    height: auto !important;
+    margin-bottom: 20px;
+  }
+
+  .conform_orders .treatmentdetail.confirmord.inner_div_dashboard {
+    margin: auto !important;
+    margin-top: 6rem !important;
+  }
+
+  .chatscreen.admindashboard.document_show .profileinfo {
+    padding-right: 10px;
+    padding-left: 11px;
+  }
+
+  ul.showdoc {
+    padding: 14px 20px;
+  }
+
+  .conditionsub {
+    padding: 0 20px;
+  }
+
+  .forgot_password .headinglogin h3 {
+    font-size: 40px !important;
+  }
+
+  .chatscreen .col-lg-10 .treatmentdetail {
+    margin: 0 !important;
+  }
+
+  .profileinfochat h4 {
+    font-size: 12px !important;
+  }
+
+  .chatmeninfo h4 {
+    font-size: 18px !important;
+  }
+
+
+  .headinglogin h3 {
+    font-size: 21px !important;
+  }
+
+  li.sidebar.open {
+    margin-left: -240px !important;
+  }
+
+  body .dashinfo {
+    overflow: hidden;
+  }
+
+  ul.chatprofileheader li {
+    width: auto;
+  }
+
+  ul.chat li {
+    margin: 30px 0;
+  }
+
+  .termsandconditions {
+    margin-top: 60px !important;
+  }
+
+  .chatscreen.admindashboard .col-lg-2 {
+    width: 240px !important;
+  }
+
+  section.maindashboard header {
+    z-index: -9 !important;
+    width: 100% !important;
+  }
+
+  .chatscreen.admindashboard.active .col-lg-2 {
+    transform: translatex(0);
+    width: 280px;
+  }
+
+  .chatscreen.admindashboard.active aside.asidemain {
+    left: 0;
+    width: 100% !important;
+    transform: translateX(-100%);
+    position: absolute !important;
+  }
+
+  .chatscreen.admindashboard aside.asidemain {
+    transform: translateX(0);
+  }
+
+  .chatscreen a.sideicon {
+    display: block !important;
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    top: 10px;
+    left: 200px;
+    z-index: 9999999 !important;
+    transition: 0.5s;
+  }
+
+  .chatscreen.admindashboard.active a.sideicon {
+    left: 10px;
+  }
+}
+
+/* 992 */
+@media only screen and (max-width: 1199px) {
+  .chatscreen.admindashboard.document_show .profilepatient {
+    margin-top: 20px;
+  }
+
+  .conditionsub h3,
+  .conditionsub h2 {
+    font-size: 25px !important;
+  }
+
+  .chatscreen.admindashboard.notificmain .activepatient.notimain {
+    margin-right: 30px !important;
+  }
+
+  .treatment_details_main_sec section.condition {
+    padding: 50px 12px !important;
+  }
+
+  .treatment_details_main_sec section.condition .container {
+    /* margin: 0; */
+    padding: 0;
+    /* margin: auto; */
+  }
+
+  .treatment_details_main_sec section.condition .payment_summary_component {
+    padding: 0;
+  }
+
+  .chatscreen.admindashboard.order_payment .ps-5.pe-5.col-lg-6 {
+    padding: 0 !important;
+  }
+
+  .conditioninfo {
+    max-width: -webkit-fill-available !important;
+    overflow: hidden;
+  }
+
+  section.condition.home .mt-3.home_inputs {
+    width: auto;
+  }
+
+  .verify_email_text {
+    font-size: 24px;
+  }
+
+  .termsandconditions {
+    margin-top: 50px !important;
+  }
+
+  p.text-white.ms-2.cursor-pointer {
+    margin: 0 !important;
+  }
+
+  .headermenu a,
+  ul.patientdetail li p,
+  ul.patientdetail li span {
+    font-size: 14px !important;
+  }
+
+  .treatmenttimeheading {
+    margin-bottom: 0 !important;
+  }
+
+  .termsandconditions h5,
+  body .termsandconditions h5 {
+    font-size: 18px !important;
+  }
+
+  .notitime p,
+  body .profileinfochat h4 {
+    font-size: 12px !important;
+  }
+
+
+  .dashdetail .col-lg-7 .col-lg-4,
+  .dashdetail .col-lg-7 .col-lg-8,
+  .viewpatientmain.viewmaindoc .col-lg-5,
+  .viewpatientmain.viewmaindoc .col-lg-7,
+  ul.treatmentmanegement {
+    width: 100% !important;
+  }
+
+  .msgsend {
+    margin-top: 0 !important;
+  }
+
+  button.searchbtn.d-flex.align-items-center {
+    border: none !important;
+  }
+
+
+  ul.doctorinfo {
+    display: block !important;
+  }
+
+  ul.doctorinfo li {
+    margin: 0 0 10px !important;
+    width: 100%;
+  }
+
+  .termsandconditions.con,
+  .viewpatientmain {
+    padding: 20px !important;
+  }
+
+  .aboutdatatick,
+  .termsandconditions.con h4 {
+    margin-bottom: 20px !important;
+  }
+
+  .chatscreen.admindashboard .activepatient.admindash {
+    margin-right: 0 !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  ul.treatmentmanegement li {
+    margin: 10px !important;
+    height: 350px !important;
+  }
+
+  .treatmentmain a {
+    padding: 10px 20px !important;
+  }
+
+  .conditionmain,
+  .treatmentmain {
+    height: 100% !important;
+  }
+
+  .viewpatienttitle {
+    left: 0 !important;
+    top: -6px !important;
+  }
+
+  .termsandconditions h4 {
+    font-size: 24px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .termsandconditions h6 {
+    font-size: 17px !important;
+    margin-bottom: 10px !important;
+  }
+
+  li.btnlogout p {
+    padding: 10px 20px;
+    font-size: 14px !important;
+  }
+
+  aside.asidemain {
+    width: 200px !important;
+  }
+
+  .modal-dialog.modal-lg.modal-dialog-centered {
+    width: 96% !important;
+  }
+
+  .viewpatientmain.viewmaindoc {
+    padding: 110px 20px 10px !important;
+  }
+
+  .viewpatientmain.viewmaindoc .viewpatienttitle {
+    top: -7px !important;
+  }
+
+  .productsubsele p,
+  .totalpatien h5 {
+    font-size: 16px !important;
+  }
+
+  .titlepatient.d-flex.justify-content-between.align-items-center h4 {
+    margin-bottom: 10px;
+  }
+
+  .addpatient {
+    justify-content: flex-end;
+  }
+
+  ul.chat li {
+    width: 50%;
+  }
+
+  .viewpatientmain .col-lg-7 {
+    width: 65% !important;
+  }
+
+  .checkdetailup span {
+    margin: 0 5px !important;
+    font-size: 12px !important;
+    width: 44px !important;
+  }
+
+  .upcomingtreatdata {
+    padding: 10px !important;
+  }
+
+  button.accordion-button {
+    padding: 11px !important;
+    font-size: 16px !important;
+  }
+
+  .accordion-body {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .notidetails a {
+    font-size: 13px !important;
+  }
+
+  .nexttratment.nexttreat.patientdash .treatmentheading {
+    padding: 8px !important;
+  }
+
+  .searchpatient input {
+    padding: 4px 13px !important;
+    border-radius: 10px !important;
+  }
+
+  .treatmentheading a {
+    font-size: 14px !important;
+    width: 90px !important;
+  }
+
+  .treatpro img {
+    width: 60px !important;
+  }
+
+  ul.chat li:nth-child(odd) {
+    margin-left: auto;
+  }
+
+  ul.chat li img {
+    margin-right: 10px !important;
+  }
+
+  ul.chat li:nth-child(odd) img {
+    margin-left: 10px !important;
+    margin-right: 0 !important;
+  }
+
+  ul.chat li span {
+    padding: 7px !important;
+    font-size: 12px !important;
+  }
+
+  .borderdiv,
+  .conditionmain,
+  .msgsend.mainchat {
+    overflow: auto;
+  }
+
+  .chatscreen .col-lg-2 {
+    width: 200px;
+  }
+
+  body .activepatient {
+    width: calc(100% - 90px) !important;
+  }
+
+  input.filter-text {
+    width: 250px !important;
+  }
+
+  .profilelogo span {
+    margin: auto !important;
+  }
+
+  ul.selecttab li {
+    width: 50% !important;
+  }
+
+  .dothepatient .checktab .selecttab {
+    justify-content: flex-start;
+  }
+
+  .chatscreen.admindashboard .activepatient {
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+
+  .treatmentmain h3 {
+    margin-bottom: 18px;
+  }
+
+  .treatmentmain h2 {
+    margin-top: 14px;
+  }
+
+  .how-goes-it-work-main .title {
+    font-size: 25px;
+  }
+
+  .card_detail_text .card_title {
+    font-size: 18px;
+  }
+
+  /* .home_inputs input {
+    max-width: 350px !important;
+  } */
+
+  .conditioninfo {
+    margin: 0 20px !important;
+  }
+
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root input#birthday {
+    max-width: 420px !important;
+  }
+
+  .conditionsub h3.conditionsub1 {
+    font-size: 25px !important;
+    width: 650px !important;
+    line-height: 36px !important;
+  }
+
+  li.sidebar,
+  li.sidebar.open {
+    width: 250px !important;
+    z-index: 99999999;
+  }
+
+  .conditionsub h3.conditionsubb {
+    font-size: 25px !important;
+  }
+
+  .checktab {
+    height: 100%;
+  }
+
+  .selectgender.optionSet .male {
+    width: 45%;
+  }
+
+  .selectgender.optionSet .male label {
+    width: auto;
+  }
+
+  li.sidebar.open {
+    margin-left: 0 !important;
+    position: absolute;
+  }
+
+  section.condition {
+    height: auto !important;
+    /* height: 100vh !important; */
+  }
+
+  section.login {
+    background: #18181B;
+  }
+
+  li.sidebar {
+    margin-left: -200px !important;
+    position: absolute !important;
+  }
+
+  .login .loginuserdetail {
+    padding: 0 50px;
+  }
+
+  .checktab .selecttab {
+    justify-content: center;
+  }
+
+  ul.bell p {
+    text-align: left;
+  }
+}
+
+/* 768 */
+@media only screen and (max-width: 991px) {
+  .massage_sent {
+    max-width: 80% !important;
+
+  }
+
+  .chat_screen_mobile .msgsends {
+    height: calc(100vh - 195px) !important;
+    /* height: 78vh !important; */
+  }
+
+  .chat_with_doctor.chatscreen .col-lg-3 {
+    height: auto !important;
+  }
+
+  .chat_with_doctor .says_hii_gif {
+    height: 43vh !important;
+  }
+
+  .treatment_details_main_sec .payment_summary_component .crad {
+    padding: 15px;
+  }
+
+  .treatment_details_main_sec .card_detail p {
+    text-align: left;
+  }
+
+  .treatment_details_inner.p-3 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .profilemain h4 {
+    font-size: 20px !important;
+  }
+
+  .treatmentdis.p-5.rounded.m-0.mt-2 {
+    padding: 0 !important;
+  }
+
+  .profilemain p {
+    font-size: 16px !important;
+    margin-bottom: 0;
+  }
+
+  .treatmentdis h4 {
+    font-size: 24px !important;
+  }
+
+  .chat_with_doctor .inner_div_dashboard .row>div {
+    padding: 0 !important;
+  }
+
+  .chat_with_doctor ul.chats {
+    margin: 10px;
+  }
+
+  .chat_with_doctor ul.chats {
+    height: auto;
+  }
+
+  .chat_with_doctor .msgsends {
+    height: auto;
+  }
+
+  .chat_with_doctor.chatscreen .col-lg-9 {
+    margin-bottom: 0 !important;
+  }
+
+  .chatscreen.admindashboard.chat_with_doctor {
+    height: auto !important;
+  }
+
+  .chat_with_doctor .entermsgsend.entermsgsends {
+    margin-top: 40px;
+  }
+
+  .mytreatmentd.mt-0 {
+    margin-top: 22px !important;
+  }
+
+  .web_app_main_div_image_messages_search {
+    height: auto !important;
+    padding: 30px 0 0 !important;
+  }
+
+  .view_order .col-lg-4 {
+    padding: 0;
+  }
+
+  .user_dashboard_main .userdash {
+    margin: 20px 0;
+  }
+
+  .user_dashboard_main ul.availabletime {
+    max-width: -webkit-fill-available;
+    margin: 10px 0;
+  }
+
+  .user_dashboard_main a.btnnextan {
+    margin: auto;
+  }
+
+  .chatscreen.admindashboard.order_payment .treatmentdetail.inner_div_dashboard {
+    margin: auto !important;
+    margin-top: 100px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .copyright {
+    margin-top: 50px !important;
+  }
+
+  .titlepatient.d-flex.justify-content-between.align-items-center {
+    display: block !important;
+  }
+
+  .searchbox {
+    margin-bottom: 15px;
+  }
+
+  .excel_button {
+    margin-top: 0 !important;
+  }
+
+  .payment_sec .treatmentdetail {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  header.dashheader .header {
+    padding: 20px !important;
+  }
+
+  .chatscreen.admindashboard.document_show .col-lg-4,
+  .chatscreen.admindashboard.document_show .col-lg-8 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  section.condition.payment_summary {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  section.condition.home .conditioninfo .row .col-lg-6 {
+    width: 50%;
+  }
+
+  section.condition.home {
+    height: 100vh;
+  }
+
+  .conditionsub h3.conditionsub1 {
+    width: auto !important;
+  }
+
+  section.condition.home .conditionmain {
+    padding: 10px !important;
+    height: 92vh !important;
+  }
+
+  section.condition.home .borderdiv {
+    align-items: center !important;
+  }
+
+  .conditionsub {
+    padding: 0;
+  }
+
+  .loginimglogo {
+    padding: 15px !important;
+  }
+
+  .loginimg .verify_login {
+    display: inline-flex !important;
+    height: 100vh !important;
+  }
+
+  .titlepatient.d-flex.justify-content-between.align-items-center,
+  select.searchfilter {
+    margin-bottom: 5px !important;
+  }
+
+  .msgsend ul.chat {
+    margin-bottom: 0 !important;
+  }
+
+  .termsandconditions h4 {
+    font-size: 20px !important;
+  }
+
+  .licencypolicy {
+    margin-top: 11px !important;
+  }
+
+  .msgsend ul.chat::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  ul.treatmentmanegement li {
+    width: 45% !important;
+  }
+
+  ul.treatmentmanegement {
+    justify-content: flex-start !important;
+  }
+
+  .searchbox button,
+  .searchbox input {
+    height: 40px !important;
+  }
+
+  ul.patientbox.row li {
+    width: 50%;
+  }
+
+  .checkdetailup span {
+    width: 56px !important;
+  }
+
+  .searchbox {
+    flex-wrap: wrap !important;
+    align-items: center !important;
+  }
+
+  .searchbox span button {
+    padding: 11px;
+    margin-left: 5px !important;
+  }
+
+  .searchbox a button {
+    padding: 10px;
+    margin-left: 5px !important;
+  }
+
+  .two.fields {
+    flex-wrap: wrap !important;
+  }
+
+  .chatscreen {
+    height: 100% !important;
+  }
+
+  body section.login,
+  section.condition,
+  section.login {
+    height: auto !important;
+  }
+
+  .chatscreen .col-lg-9 {
+    margin-bottom: 40px !important;
+    padding: 0 16px !important;
+  }
+
+
+  ul.chatprofileheader {
+    padding: 10px !important;
+  }
+
+  .profiledetail.mb-0,
+  ul.chat li {
+    margin-bottom: 10px !important;
+  }
+
+  button.button.ms-3 {
+    margin-top: 10px;
+  }
+
+  .profilepatient h4 {
+    font-size: 36px !important;
+  }
+
+  .viewpatienttitle h4 {
+    font-size: 24px !important;
+  }
+
+  .viewpatientmain .col-lg-4,
+  .viewpatientmain .col-lg-7 {
+    width: 100% !important;
+  }
+
+  .editprofiledetail {
+    max-width: 100% !important;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  ul.selectdate {
+    margin-top: 0 !important;
+  }
+
+  .btnredsubmit {
+    margin-top: 20px !important;
+  }
+
+  select.searchfilter {
+    margin-top: 5px !important;
+  }
+
+  .data-table-extensions {
+    left: 0 !important;
+  }
+
+  .nexttratment.nexttreat.patientdash {
+    margin: 10px 0;
+  }
+
+  body div#root section.login,
+  section.login {
+    height: 100vh !important;
+  }
+
+  .headinglogin,
+  .logindetails {
+    display: none !important;
+  }
+
+  .chatscreen.admindashboard.notificmain .coptrights {
+    position: relative;
+  }
+
+  .termsandconditions ul li span {
+    display: none;
+  }
+
+  section.maindashboard header {
+    width: calc(100%) !important;
+  }
+
+  .treatmentdetail {
+    /* max-width: 590px; */
+    margin: auto !important;
+  }
+
+  .conditionsub.title h2 {
+    font-size: 56px;
+    letter-spacing: 1px;
+  }
+
+  /* .how-goes-it-work-main {
+    margin: 0;
+  } */
+
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root input#birthday {
+    max-width: 330px !important;
+  }
+
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 356px;
+  }
+
+  .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 357px !important;
+  }
+
+  .chatscreen .customerlist,
+  body .chatscreen .col-lg-3,
+  body .loginimg {
+    height: auto;
+  }
+
+  body .chatscreen {
+    height: auto;
+    overflow: auto;
+  }
+
+  .chatscreen li.sidebar {
+    margin-left: -153px !important;
+  }
+
+  .entermsgsend {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    bottom: 30px;
+  }
+
+  .login .signuplink {
+    position: relative;
+    bottom: -20px;
+  }
+
+  section.login .row {
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+
+  .login .loginuserdetail {
+    padding: 60px;
+  }
+
+  .loginimg .logindetails {
+    padding: 100px 0 50px;
+  }
+
+  .condition .conditionsub.title {
+    margin-bottom: 20px;
+  }
+
+  .condition .btnnext {
+    margin-top: 40px;
+  }
+
+  .condition .conditioninfo {
+    max-width: 100%;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+
+  .condition .borderdiv,
+  .condition .conditionmain {
+    margin: 0;
+    border: none;
+  }
+
+  .condition .conditionsub.title h3 {
+    font-size: 40px;
+  }
+
+  .condition .conditionmain {
+    padding: 50px 0;
+    height: 0 auto !important;
+  }
+
+  .condition .selectgender.doctor label {
+    width: 100%;
+    padding-right: 35px;
+  }
+
+  .condition .borderdiv {
+    align-items: flex-start;
+  }
+
+  section.condition {
+    overflow: auto;
+  }
+}
+
+/* 576 */
+@media only screen and (max-width: 767px) {
+  .payment_summary.condition .btnnext {
+    margin-bottom: 0 !important;
+  }
+
+  .chat_screen_mobile .msgsends {
+    margin-bottom: 0 !important;
+  }
+
+  .chat_screen_user_image_chat_discuss_text_message {
+    width: auto !important;
+    margin-right: 5px !important;
+  }
+
+  .chatscreen.admindashboard.chat_with_doctor .inner_div_dashboard {
+    padding-top: 60px !important;
+  }
+
+  .web_app_main_div_image_messages_search img {
+    height: 470px !important;
+  }
+
+  header.chatheader .header {
+    padding: 5px 15px !important;
+  }
+
+  ul.treatmentmanegement li {
+    width: 100% !important;
+    /* margin: 0 !important; */
+    height: auto !important;
+  }
+
+  ul.treatmentmanegement .treatmentmain {
+    padding: 20px 0;
+    height: auto !important;
+  }
+
+  /* ul.treatmentmanegement .treatmentmain a.btnred {
+    margin-top: 20px !important;
+  } */
+
+  .treatmentmain h2 {
+    margin-top: 0 !important;
+  }
+
+  .notidetails p {
+    margin-right: 10px !important;
+  }
+
+  .treatmentdis.text-center.p-5.rounded.m-0.d-flex.align-items-center {
+    padding: 15px !important;
+  }
+
+  .copyright {
+    margin-top: 60px !important;
+  }
+
+  p.size {
+    margin: 0 15px !important;
+  }
+
+  .payment_summary_staps .MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.css-10mg1vw-MuiStepper-root {
+    overflow: auto;
+  }
+
+  .payment_summary_staps .mdl-stepper-horizontal-alternative {
+    overflow: auto !important;
+    display: block !important;
+  }
+
+  .payment_summary_component {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .payment_summary_staps .MuiStep-root.MuiStep-horizontal.MuiStep-alternativeLabel.css-n7tliy-MuiStep-root {
+    min-width: 21%;
+  }
+
+  .payment_summary_staps .mdl-stepper-horizontal-alternative {
+    min-width: 21%;
+  }
+
+  .payment_summary_component .crad {
+    padding: 20px;
+  }
+
+  /* .selecttab .male label {
+    margin-right: 4px !important;
+  } */
+
+  .how-goes-it-work-main {
+    margin-top: 440px;
+  }
+
+  .login .loginuserdetail {
+    padding: 20px;
+  }
+
+  section.login.forgot_password button.btnwhite {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .loginuserdetail button.btnred {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .conditionmain {
+    height: 100vh !important;
+  }
+
+  .borderdiv.payment,
+  .followingmedi,
+  section.condition {
+    height: auto !important;
+  }
+
+  .paymentheading h3 {
+    font-size: 38px !important;
+  }
+
+  .treatmentdetail {
+    padding: 30px !important;
+  }
+
+  .conditionsub h3 {
+    font-size: 25px !important;
+  }
+
+  /* .condition .btnnext {
+    margin-bottom: 40px;
+  } */
+
+  .conditionsub.title h2 {
+    font-size: 56px;
+    letter-spacing: 1px;
+  }
+
+  /* .how-goes-it-work-main {
+    margin: 0;
+  } */
+
+  .how-goes-it-work-main .title {
+    font-size: 23px !important;
+  }
+
+  .card_detail_text .card_title {
+    font-size: 17px !important;
+  }
+
+  .card_detail_text .card_description {
+    font-size: 15px !important;
+  }
+
+  .selectgender.exercise.d-flex {
+    margin-left: 60px !important;
+  }
+
+  .conditionsub h3.conditionsub1 {
+    width: 100% !important;
+    font-size: 22px !important;
+  }
+
+  .conditionsub h3.conditionsubb {
+    font-size: 22px !important;
+  }
+
+  .d-flex.flex-column.justify-contant-center.questionBody .selectgender.optionSet {
+    display: flex;
+  }
+
+  section.condition {
+    /* min-height: auto !important; */
+    overflow: auto;
+  }
+
+  .d-flex.flex-column.justify-contant-center.questionBody {
+    height: auto !important;
+    display: flex;
+  }
+
+  .condition .borderdiv {
+    /* overflow: hidden; */
+    padding-bottom: 0;
+  }
+
+  .btnnext2.btnnext {
+    margin-bottom: 0 !important;
+  }
+
+  .chatscreen li.sidebar {
+    margin-left: -290px !important;
+    width: 50% !important;
+  }
+
+  li.sidebar.open {
+    margin-left: 0 !important;
+  }
+
+  .modal-dialog.modal-lg.modal-dialog-centered {
+    width: 96% !important;
+  }
+
+  section.condition.emergencycontraception .borderdiv {
+    height: 100%;
+  }
+
+  section.condition.emergencycontraception .conditioninfo {
+    margin: 0 !important;
+  }
+
+  .termsandconditions {
+    margin-top: 50px !important;
+  }
+
+  ul.dashboardmenu li a,
+  ul.setting li a {
+    font-size: 13px;
+  }
+
+  .headermenu a img {
+    height: 30px;
+  }
+
+  ul.setting a img {
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .selecttab .male label {
+    margin-right: 0px !important;
+  }
+
+  .asidechat {
+    padding-right: 10px !important;
+  }
+}
+
+/* 480 */
+@media only screen and (max-width: 575px) {
+  ul.basicdetail li {
+    width: 100% !important;
+  }
+
+  .conditionsub h3,
+  .conditionsub h2 {
+    font-size: 19px !important;
+  }
+
+  .chat_screen_mobile .msgsends {
+    height: 80vh !important;
+  }
+
+  .chatscreen.admindashboard.notificmain .activepatient.notimain {
+    margin: 0 20px 20px !important;
+    padding: 15px;
+  }
+
+  img.header_logo_main {
+    width: 130px;
+  }
+
+  .px-3.doctor_recommended {
+    padding: 0 !important;
+    margin: 0 10px !important;
+  }
+
+  .medicinlist.doctor_mediation {
+    padding: 1rem;
+  }
+
+  .userAvatar {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .web_app_main_div_image_messages_search {
+    padding: 20px 0 0 !important;
+  }
+
+  .termsandconditions.con .row>div {
+    padding: 0;
+  }
+
+  .conform_orders .treatmentdetail.confirmord.inner_div_dashboard {
+    margin: auto !important;
+    margin-top: 6rem !important;
+  }
+
+  .conform_orders .accordion {
+    padding: 0;
+  }
+
+  .conform_orders .accordion-item {
+    padding: 0 10px;
+  }
+
+  .conform_orders .accordion-body {
+    padding: 10px 0 !important;
+  }
+
+  span.document_header_links_span {
+    margin-right: 20px !important;
+  }
+
+  button.button.ms-3.excel_button {
+    margin-left: 0 !important;
+    margin-top: 10px !important;
+  }
+
+  button.btnFix {
+    width: 100% !important;
+    display: flex;
+  }
+
+  .payment_summary_logo {
+    left: 20px !important;
+  }
+
+  .checktab .dropdown {
+    margin-top: 10px;
+  }
+
+  .modal-body {
+    padding: 0 !important;
+  }
+
+  .modal-content p {
+    word-wrap: break-word;
+  }
+
+  .how-goes-it-work-main {
+    margin-top: 0;
+  }
+
+  .btnnext.align button {
+    width: 100%;
+  }
+
+  section.condition.home .conditioninfo .row .col-lg-6 {
+    width: 100%;
+  }
+
+  .loginuserdetail h3 {
+    font-size: 40px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .male label {
+    max-width: 100% !important;
+  }
+
+  .conditionmain,
+  section.condition.pay {
+    /* height: auto !important; */
+    height: auto
+  }
+
+  .btnblue,
+  a.btnred {
+    border-radius: 20px !important;
+  }
+
+  .card_detail_text .card_title,
+  body .termsandconditions h5 {
+    font-size: 16px !important;
+  }
+
+  .abouttick label {
+    font-size: 13px;
+  }
+
+  .how-goes-it-work-main {
+    padding: 20px !important;
+  }
+
+  .how-goes-it-work-main .title {
+    font-size: 21px !important;
+  }
+
+  .card_main {
+    padding: 13px;
+  }
+
+  .card_detail_text .card_description {
+    font-size: 14px !important;
+    margin: 0;
+  }
+
+  .condition .conditionmain {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .conditionsub {
+    margin-bottom: 30px !important;
+  }
+
+  .selectgender.exercise.d-flex {
+    width: 100% !important;
+    justify-content: left !important;
+  }
+
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root input#birthday {
+    max-width: 377px !important;
+  }
+
+  .conditioninfo {
+    height: 100% !important;
+  }
+
+  section.condition {
+    overflow: auto !important;
+  }
+
+  .conditionsub h3.conditionsubb {
+    line-height: 35px !important;
+  }
+
+  .conditionmain .checktab textarea,
+  .conditionmain .selectgender.exercise,
+  .d-flex.flex-column.justify-contant-center.questionBody,
+  .selectgender,
+  .selectgender.false,
+  .selectgender.optionSet .male {
+    width: 100%;
+  }
+
+  .condition .conditioninfo {
+    max-width: 100%;
+    height: 100vh;
+    margin-top: 40px !important;
+  }
+
+  .conditionsub.title h2 {
+    letter-spacing: 1px;
+    line-height: 35px;
+  }
+
+  /* .checktab {
+    padding: 0 20px;
+  } */
+
+  .male label {
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .conditionmain .checktab {
+    width: 100%;
+    height: auto;
+  }
+
+  .selectgender.optionSet {
+    width: 100%;
+    display: block;
+  }
+
+  .condition .borderdiv {
+    padding-top: 0;
+  }
+
+  .conditionmain .paymentDetails {
+    margin: 10px 19px;
+  }
+
+  .conditionmain input#card-expiry {
+    padding: 0;
+  }
+
+  .conditionmain .paybtn,
+  .mytreatmentd ul.doctorinfo,
+  body .editprofilebtn,
+  section.condition.pay .paybtn {
+    display: block;
+  }
+
+  .conditionmain .btnnext.pay {
+    margin: 20px 0;
+    text-align: left;
+  }
+
+  .chatscreen li.sidebar {
+    margin-left: -240px !important;
+  }
+
+  li.sidebar.open {
+    margin-left: 0 !important;
+  }
+
+  ul.chat li span {
+    font-size: 13px !important;
+  }
+
+  .dateDrop div select,
+  .profileinfo,
+  section.condition.pay .payinfo {
+    margin-bottom: 20px;
+  }
+
+  /* h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 20px !important;
+  } */
+
+  .viewpatientmain {
+    padding: 10px !important;
+  }
+
+  .treatmentmain {
+    padding: 15px !important;
+  }
+
+  .treatmentmain h3 {
+    margin-bottom: 10px;
+    font-size: 27px !important;
+  }
+
+  section.condition.pay .conditionmain {
+    margin: 0;
+    border: none;
+  }
+
+  section.condition.pay .paymentDetails {
+    margin: 10px !important;
+  }
+
+  section.condition.pay .payinfo h6,
+  section.condition.pay .payinfo p {
+    justify-content: center;
+  }
+
+  ul.setting li a {
+    font-size: 11px;
+  }
+
+  ul.dashboardmenu li a {
+    font-size: 12px;
+  }
+
+  .headermenu a img {
+    height: 22px;
+  }
+
+  ul.setting li a img {
+    height: 18px;
+  }
+
+  ul.doctorinfo li {
+    margin: auto;
+    width: 100% !important;
+  }
+
+  ul.doctorinfo li.docmain {
+    width: 100% !important;
+    margin-bottom: 40px;
+  }
+
+  .dashdetail {
+    padding-top: 90px;
+  }
+
+  body .editprofilebtn p {
+    margin-bottom: 19px;
+  }
+
+  body .editprofilebtn a {
+    margin: 0 !important;
+  }
+
+  body .editprofiledetail {
+    margin: 0;
+  }
+
+  .notificationicon ul.bell.noti {
+    /* width: 340px;
+    right: -7px; */
+    width: 330px;
+    right: -40px;
+  }
+}
+
+/* 375 */
+
+
+@media only screen and (max-width: 479px) {
+  img.treatment_details_image {
+    display: none;
+  }
+
+  a.btnblue {
+    width: 100%;
+  }
+
+  .selecttab .male label {
+    margin-right: 0 !important;
+  }
+
+  .chat_screen_mobile .entermsgsend.entermsgsends {
+    padding: 0 !important;
+  }
+
+  textarea.set_input {
+    height: auto !important;
+  }
+
+
+  .entermsgsends {
+    margin: 15px;
+  }
+
+  .receive_message {
+    padding-left: 0 !important;
+    font-size: 12px;
+  }
+
+  .edit_patient_main h3.conditionsubb.edit_patient_head {
+    font-size: 24px !important;
+  }
+
+  .web_app_main_div_image_messages_search img {
+    height: 440px !important;
+  }
+
+  .web_app_main_div_image_messages_search {
+    padding: 0 !important;
+  }
+
+  .copyright {
+    margin-top: 50px !important;
+  }
+
+  .notificmain .titlepatient {
+    display: block !important;
+  }
+
+  .notificmain .titlepatient p {
+    margin-left: 0;
+  }
+
+  .inner_div_dashboard .titlepatient.d-flex.justify-content-between.align-items-center {
+    display: block !important;
+    margin-bottom: 15px !important;
+  }
+
+  .activepatient {
+    padding: 15px !important;
+  }
+
+  .pagination_main>div:first-child {
+    display: none !important;
+  }
+
+  .custom_drawer .MuiPaper-root.MuiPaper-elevation {
+    width: 240px !important;
+  }
+
+  ul.profilepatientsubdetail {
+    padding: 15px;
+  }
+
+  ul.profilepatientsubdetail li {
+    width: 100% !important;
+  }
+
+  .notificationicon ul.bell.noti {
+    width: 250px;
+    right: -70px;
+  }
+
+  .document_header_links {
+    margin-left: 0 !important;
+    margin-top: 13px;
+  }
+
+  .profilelogo {
+    display: inline-flex;
+  }
+
+  .next_button.button {
+    width: 100%;
+  }
+
+  .borderdiv h3.conditionsub1.font_16_title,
+  .font_16_title {
+    font-size: 20px !important;
+  }
+
+  .borderdiv h3.conditionsubb.font_14_para_title {
+    font-size: 16px !important;
+  }
+
+  p.text-start {
+    font-size: 16px;
+  }
+
+  .payment_summary_staps .MuiStep-root.MuiStep-horizontal.MuiStep-alternativeLabel.css-n7tliy-MuiStep-root {
+    min-width: 30%;
+  }
+
+  .payment_summary_staps .mdl-stepper-horizontal-alternative {
+    min-width: 30%;
+  }
+
+  .payment_summary_component h1 {
+    font-size: 24px !important;
+    line-height: initial;
+    margin-top: 15px;
+  }
+
+  .payment_summary_component p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  p.MuiTypography-root.MuiTypography-body1.css-1atslg0-MuiTypography-root {
+    margin-top: 0;
+  }
+
+  .card_detail {
+    margin-top: 0 !important;
+  }
+
+  .card_main img.rounded-3 {
+    display: flex;
+    margin: auto;
+  }
+
+  .userInput input.inputClass {
+    margin-right: 8px;
+    padding: 0;
+    width: 38px !important;
+  }
+
+  .userInput>div>div>span {
+    display: none;
+  }
+
+  h1.verify_email_text.text-center.mx-5 {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .verify_login img {
+    width: 100% !important;
+    padding: 0 10px;
+  }
+
+  .chatscreen .msgsend ul.chat,
+  .termsandconditions {
+    margin: 10px !important;
+  }
+
+  .privacy-policy {
+    margin: 10px !important;
+  }
+
+  body section.login,
+  section.login {
+    background: #f8f5f0 !important;
+  }
+
+  p.welcometext {
+    color: #18181B;
+  }
+
+  .agreebtns,
+  .paybtn {
+    display: block !important;
+  }
+
+  a.bgtransparent {
+    border-radius: 15px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .treatmentmain h3 {
+    font-size: 24px !important;
+    margin-bottom: 15px;
+  }
+
+  .termsandconditions {
+    padding: 10px !important;
+  }
+
+  .shayestreatment,
+  .title h4,
+  .treatmenttitle h4 {
+    margin-bottom: 16px !important;
+  }
+
+  .treatmentdetail {
+    padding: 25px !important;
+  }
+
+  .title h4,
+  .treatmenttitle h4 {
+    font-size: 38px !important;
+  }
+
+  .conditionsub.title h2 {
+    /* font-size: 24px !important; */
+    margin-bottom: 0 !important;
+  }
+
+  .card_main,
+  .login .signuplink p {
+    display: block;
+  }
+
+  .card_detail {
+    margin-top: 10px;
+    align-items: unset;
+  }
+
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 320px;
+  }
+
+  .conditionsub h3.conditionsubb {
+    padding: 0 !important;
+  }
+
+  .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    /* max-width: 320px !important; */
+  }
+
+  /* .home_inputs input {
+    max-width: 320px !important;
+  } */
+
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root input#birthday {
+    max-width: 294px !important;
+  }
+
+  .conditionsub h3.conditionsub1 {
+    font-size: 20px !important;
+  }
+
+  body .paymentDetails {
+    margin: 0 10px !important;
+  }
+
+  .btnnext button {
+    font-size: 13px;
+  }
+
+  .gfbqUK .credit-card-input {
+    padding: 0;
+  }
+
+  .condition .conditionsub,
+  .editprofiledetail .condition .payinfo,
+  .payinfo,
+  body .userinput {
+    margin-bottom: 20px;
+  }
+
+  img.imgchat {
+    max-width: 200px;
+  }
+
+  .chatscreen ul.chat li span {
+    padding: 10px;
+  }
+
+  .chatscreen li.sidebar {
+    margin-left: -188px !important;
+  }
+
+  .chatscreen .sidebar.open {
+    margin-left: 0 !important;
+  }
+
+  .chatscreen .entermsgsend {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    bottom: 0;
+  }
+
+  .chatscreen ul.chat li img {
+    margin-right: 10px !important;
+  }
+
+  ul.chat li:nth-child(odd) img {
+    margin-left: 10px !important;
+  }
+
+  .chatscreen ul.chatprofileheader {
+    padding: 5px;
+  }
+
+  .chatscreen ul.chatprofileheader a {
+    margin-right: 10px;
+  }
+
+  section.condition {
+    overflow: auto !important;
+  }
+
+  .borderdiv.payment,
+  .condition .conditioninfo {
+    overflow: inherit;
+  }
+
+  /* body section.login .row {
+    background: #f8f5f0;
+    box-shadow: none
+  } */
+
+  .headinglogin {
+    display: none;
+  }
+
+  /* html body .userinput input {
+    border: 1px solid #ccc !important;
+    color: #18181B
+  } */
+
+  body section.login {
+    overflow-x: hidden;
+    height: 100vh !important;
+  }
+
+  p.welcometext {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex !important;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .conditioninfo {
+    margin: 0 !important;
+  }
+
+  /* body .inputdetail .userinput span {
+    color: #18181B !important;
+    opacity: 1;
+    font-size: 14px
+  } */
+
+  section.login .row {
+    background: #f8f5f0;
+  }
+
+  body .btnred {
+    width: 100%;
+    justify-content: center;
+    font-size: 14px;
+    height: 40px;
+    margin-top: 60px;
+  }
+
+  body .login .signuplink p {
+    text-align: center;
+  }
+
+  /* .inputdetail .forgott h6.text-white {
+    color: #18181B !important;
+    text-align: right
+  } */
+
+  ul.treatmentmanegement li {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .upload .file_img p,
+  ul.bell p {
+    font-size: 14px !important;
+  }
+
+
+
+  .headermenu {
+    display: block !important;
+    margin-left: 20px;
+  }
+
+  ul.setting {
+    margin-top: 20px !important;
+  }
+
+  .editprofiledetail .paymentinfo {
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  body section.condition.doctor .conditionmain .borderdiv {
+    padding-top: 20px;
+  }
+
+  .condition .conditionmain {
+    margin: 0;
+    border: none;
+    padding: 10px !important;
+  }
+
+  .condition .checktab textarea,
+  .condition .selectgender.doctor label,
+  .condition .selectgender.exercise,
+  .condition .selectgender.exercise label {
+    width: 100%;
+  }
+
+  .condition .conditionsub h3 {
+    line-height: initial;
+    /* font-size: 38px !important; */
+  }
+
+  .logindetails img {
+    width: 100%;
+    max-width: 170px;
+  }
+
+  .condition .conditionsub.title h3,
+  .headinglogin h3 {
+    font-size: 24px;
+  }
+
+  .loginimg .logindetails {
+    display: none;
+    padding: 80px 0 10px;
+  }
+
+  .login .loginuserdetail {
+    padding: 20px;
+  }
+
+  .login .loginuserdetail.otp p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .condition .conditionsub.title {
+    margin: 0;
+  }
+
+  .condition .btnnext {
+    margin-top: 20px;
+  }
+
+  /* .condition .dropdown {
+    margin: 10px 0 !important;
+  } */
+
+  .condition .conditionsub {
+    margin-bottom: 12px;
+  }
+
+  section.condition .loginimglogo.conlogo {
+    padding: 20px;
+  }
+}
+
+/* 320 */
+@media only screen and (max-width: 349px) {
+
+  textarea.set_input {
+    font-size: 14px !important;
+    padding: 15px 19px !important;
+  }
+
+  .selecttab .male label {
+    width: 260px !important;
+  }
+
+  .web_app_main_div_image_messages_search img {
+    height: 350px !important;
+  }
+
+  .searchbox input {
+    width: 60%;
+    padding-right: 0 !important;
+  }
+
+  section.condition.sexual_pain .prev.me-2 {
+    margin-bottom: 10px;
+  }
+
+  .dateDrop select {
+    width: 79px;
+  }
+
+  button.searchbtn.d-flex.align-items-center {
+    padding-left: 15px;
+  }
+
+  .treatmentdetail {
+    padding: 15px !important;
+  }
+
+  .title h4,
+  .treatmenttitle h4 {
+    font-size: 24px !important;
+    margin: 0 !important;
+  }
+
+
+
+  .how-goes-it-work-main .title {
+    font-size: 20px !important;
+  }
+
+  .selectgender.exercise.d-flex {
+    margin: 0 !important;
+  }
+
+  .home_inputs input {
+    max-width: 290px !important;
+  }
+
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root input#birthday {
+    max-width: 260px !important;
+  }
+
+  .dateDrop div {
+    max-width: 286px;
+  }
+
+  ul.bell p {
+    font-size: 12px !important;
+  }
+
+  ul.bell li {
+    padding-left: 10px;
+  }
+
+  .profilebasicdetail {
+    padding: 18px !important;
+  }
+
+  .prodetails p {
+    font-size: 14px !important;
+  }
+
+  .signuplink {
+    margin-top: 20px;
+  }
+}
+
+.treatmentdetial li {
+  width: 100% !important;
+}
+
+@media (max-width: 410px) {
+  .resp {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+
+  .value {
+    left: 0;
+    display: flex !important;
+    align-items: center !important;
+    width: 200px !important;
+    margin-top: 10px !important;
+  }
+
+  .signuplink {
+    margin-top: 20px !important;
+  }
+}
+
+@media (max-width: 536px) {
+  .videoimg img {
+    height: 138px !important;
+    width: 141px !important;
+  }
+
+  .appoint {
+    font-size: 18px;
+  }
+
+  .schedual {
+    font-size: 15px;
+  }
+
+  .signuplink {
+    margin-top: 20px !important;
+  }
+}
+
+@media (max-width: 440px) {
+  .videoimg img {
+    height: 118px !important;
+    width: 121px !important;
+  }
+
+  .videores {
+    bottom: 1px !important;
+  }
+
+  .signuplink {
+    margin-top: 20px !important;
+  }
+}
+
+/* @media (min-width: 1200px) {
+  .conditioninfo {
+    height: 100%;
+    overflow: auto;
+  }
+
+  .conditioninfo::-webkit-scrollbar {
+    width: 0px !important;
+  }
+
+} */

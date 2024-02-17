@@ -1,0 +1,694 @@
+aside {
+    background: #F4F4F5;
+    height: 100vh;
+}
+
+ul.chatmenu {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+ul.chatmenu li a span {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #f8f5f0;
+    margin-left: 12px;
+}
+
+ul.chatmenu {
+    margin: 0;
+    margin-top: 30px;
+}
+
+ul.chatmenu li a {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0px 20px;
+    /* border: 1px solid #557C96; */
+}
+
+ul.chatmenu li {
+    margin-bottom: 10px;
+}
+
+.asidechat {
+    padding: 13px 30px 13px 24px;
+}
+
+.asidemain a.active,
+.mobile_sidebar_ul a.active {
+    background: #DCE4EA;
+    border-radius: 8px;
+}
+
+.asidemain a.active svg path,
+.mobile_sidebar_ul a.active svg path {
+    fill: #18181B;
+}
+
+.asidemain a.active span,
+.mobile_sidebar_ul a.active span {
+    color: #18181B !important;
+}
+
+.chatscreen .row {
+    margin: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.chatscreen .col-lg-2 {
+    padding-left: 0;
+    padding: 0;
+}
+
+span.close {
+    width: 30px;
+    height: 30px;
+    background: #18181B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 26px;
+    right: -30px;
+}
+
+span.close a {
+    color: white;
+}
+
+aside.asidemain {
+    position: relative;
+}
+
+.chatscreen .col-lg-10 {
+    padding: 0;
+}
+
+header.chatheader {
+    background: #f9f9f9;
+}
+
+header.chatheader .header {
+    /* padding: 24px; */
+    height: 75px;
+}
+
+.customerlist {
+    background: #f8f5f0;
+}
+
+.customersearch {
+    padding: 15px 26px;
+    position: relative;
+    background-color: #F4F4F5;
+}
+
+.customersearch input {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding-left: 11px;
+}
+
+.customersearch span {
+    position: absolute;
+    right: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ul.chatlist {
+    padding: 0;
+    list-style: none;
+    /* display: grid; */
+    padding: 10px;
+}
+
+ul.chatlist li a {
+    display: flex;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    /* background: white; */
+}
+
+.profileinfochat h4 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    /* Primary/2 */
+
+    color: #18181B;
+
+    border-radius: 2px;
+    margin-bottom: 6px;
+}
+
+.profileinfochat p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    /* Primary/2 */
+
+    color: #18181B;
+    margin: 0;
+}
+
+.profileinfochat {
+    margin-left: 11px;
+}
+
+.chatscreen .col-lg-3 {
+    padding: 0;
+    height: 100%;
+}
+
+a.activechat {
+    background: rgba(0, 0, 0, 0.0373);
+    padding-bottom: 15px !important;
+}
+
+ul.chatlist li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    padding-bottom: 15px;
+}
+
+ul.chatlist li a {
+    padding-bottom: 0;
+}
+
+span.msg {
+    display: inline-flex;
+    background: #005fb7;
+    /* Light/Fill Color/System/Attention */
+
+    border: 1px solid #005fb7;
+    border-radius: 999px;
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    /* or 160% */
+
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+
+    /* Light/Fill Color/Text On Accent/Primary */
+
+    color: #ffffff;
+    margin-left: auto;
+}
+
+.chatscreen {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.customerlist {
+    height: 100%;
+}
+
+li.btnlogout {
+    position: fixed;
+    bottom: 0;
+}
+
+ul.chatprofileheader {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-bottom: 1px solid #ededed;
+}
+
+ul.chatprofileheader li {
+    display: flex;
+    align-items: center;
+}
+
+.chatmeninfo h4 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.2179px;
+    line-height: 17px;
+    /* identical to box height */
+
+    /* text-align: center; */
+
+    /* Primary/2 */
+
+    color: #18181B;
+    margin-bottom: 3px;
+}
+
+.chatmeninfo p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.2179px;
+    line-height: 17px;
+    color: #b6b4bd;
+    margin: 0;
+}
+
+.chatmeninfo {
+    margin-left: 16px;
+}
+
+ul.chatprofileheader a {
+    margin-right: 26px;
+}
+
+.chatscreen .col-lg-9 {
+    padding: 0;
+}
+
+
+.entermsgsend input {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 114px;
+    width: 100%;
+    height: 47px;
+    border: 1px solid rgb(238 238 238);
+    border-radius: 50px;
+    padding-left: 16px;
+}
+
+.msgsend {
+    position: relative;
+}
+
+.entermsgsend a {
+    position: absolute;
+    right: 0;
+    background: #0065C0;
+    border-radius: 131px;
+    width: 83px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.1028px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+
+    /* Primary/4 */
+
+    color: #f8f5f0;
+    /* top: 50%;
+    transform: translateY(-50%); */
+}
+
+.chatscreen {
+    position: relative;
+}
+
+ul.chat li {
+    display: flex;
+    align-items: center;
+}
+
+ul.chat {
+    padding: 0;
+    list-style: none;
+    margin: 10px 20px;
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-bottom: 0;
+    height: 600px;
+    overflow: auto;
+}
+
+ul.chat li span {
+    background: #f3f3f3;
+    /* Light/Stroke Color/Card Stroke/Default */
+
+    /* border: 1px solid rgba(0, 0, 0, 0.0578); */
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+ul.chat li:nth-child(odd) {
+    justify-content: flex-end;
+}
+
+ul.chat li:nth-child(odd) img {
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+ul.chat li img {
+    margin-right: 20px;
+}
+
+.msgsend {
+    margin-top: 100px;
+}
+
+.activepatient {
+    padding: 24px;
+}
+
+.titlepatient h4 {
+    /* Heding/Inter */
+    font-family: "Inter", sans-serif;
+    /* font-family: "Inter", sans-serif; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 53px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+
+    /* Primary/2 */
+    color: #18181B;
+    margin: 0;
+}
+
+.filter-text {
+    display: none;
+}
+
+.button {
+    background: #0065C0;
+    border-radius: 99px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #f8f5f0;
+    justify-content: center;
+    height: 40px;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.searchbox {
+    display: flex;
+}
+
+.search {
+    border: 1px solid lightgray;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    padding-left: 15px;
+}
+
+.searchbtn {
+    color: white;
+    background-color: #18181B;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 0px 20px;
+}
+
+.bg1 img {
+    width: 305px;
+}
+
+/* .kgEPYv {
+    background: #F4F4F5;
+  } */
+.data-table-extensions {
+    display: none !important;
+}
+
+.sc-cxabCf.iLyphs {
+    margin-top: 19px;
+}
+
+label.form-check-label {
+    background: transparent;
+    display: none;
+}
+
+.rdt_TableHeadRow div {
+    color: white !important;
+    font-family: "Inter", sans-serif !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    color: #f8f5f0 !important;
+}
+
+.rdt_TableHeadRow {
+    background: #18181B !important;
+    border-radius: 0px !important;
+}
+
+/* .kgEPYv {
+    background: #F4F4F5;
+  } */
+
+.sc-ftvSup {
+    background: #F4F4F5;
+}
+
+.rdt_TableHeadRow .rdt_TableCol {
+    background: #18181B !important;
+}
+
+.rdt_TableCol {
+    background: #18181B !important;
+}
+
+.background-blue {
+    background-color: #18181B;
+}
+
+.background-blue:hover {
+    background-color: #446F8B;
+}
+
+.height-unset {
+    height: unset !important;
+}
+
+.inprogress-btn {
+    background-color: #DCE4EA;
+    color: #18181B;
+    border: none;
+}
+
+.question-type {
+    color: #18181B;
+    font-weight: 500;
+}
+
+.payment-type {
+    font-size: 14px;
+    color: #7796AB;
+    font-weight: 500;
+}
+
+.subscription {
+    font-size: 16px;
+    color: #18181B;
+    font-weight: 500;
+}
+
+.box-consult {
+    background-color: #F4F4F5;
+}
+
+.inner-doctor {
+    color: #7796AB;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.doctor-name {
+    font-size: 16px;
+    color: #18181B;
+    font-weight: 500;
+}
+
+.doctor-pronounce {
+    font-size: 14px;
+    color: #A9BDCA;
+    font-weight: 400;
+}
+
+.doctor-desc {
+    font-size: 16px;
+    color: #87A3B5;
+    border-bottom: 1px solid #DCE4EA;
+}
+
+.medicine-name {
+    color: #18181B;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.green-btn {
+    color: #1D864E;
+    background-color: #D0F8E2;
+    border: 1px solid #1D864E
+}
+
+.red-btn {
+    color: #0065C0;
+    background-color: #FCD5D5;
+    border: 1px solid #0065C0
+}
+
+.medicine-price {
+    color: #18181B;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.table-header {
+    color: #7796AB;
+    font-size: 14px;
+}
+
+.table-cell {
+    margin-top: 7px;
+    color: #18181B;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid #ECECEE;
+    width: fit-content;
+}
+
+.dropbtn {
+    background-color: transparent !important;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+    top: 32px;
+    left: auto;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+.newSideBar {
+    display: flex;
+    flex-direction: column;
+    height: 86%;
+    justify-content: space-between;
+}
+
+.bg-sideBar {
+    background: #F4F4F5;
+}
+
+.dropdowns {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    gap: 10px;
+    /* margin-top: 10px; */
+    /* position: absolute;
+    right: 4%; */
+    color: black;
+}
+
+@media (max-width: 575px) {
+    /* .gapresp {
+        gap: 20px;
+    } */
+
+    .resfontpayment {
+        font-size: 14px !important;
+    }
+
+    .consultno {
+        padding: 0 25px;
+    }
+
+    .heading {
+        width: 75%;
+        gap: 3px;
+    }
+}
+
+.gapresp {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0 40px;
+}

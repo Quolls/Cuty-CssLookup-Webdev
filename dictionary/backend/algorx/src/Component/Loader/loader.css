@@ -1,0 +1,76 @@
+.cssLoader17:before,
+.cssLoader17:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 0.25em;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+}
+
+.cssLoader17:before {
+    z-index: 101;
+    animation: before 2s infinite;
+}
+
+.cssLoader17:after {
+    z-index: 101;
+    animation: after 2s infinite;
+}
+
+@keyframes before {
+    0% {
+        width: 0.5em;
+        box-shadow: 1em -0.5em#18181B, -1em 0.5em #18181B;
+    }
+
+    35% {
+        width: 2.5em;
+        box-shadow: 0 -0.5em#18181B, 0 0.5em#18181B;
+    }
+
+    70% {
+        width: 0.5em;
+        box-shadow: -1em -0.5em#18181B, 1em 0.5em#18181B;
+    }
+
+    100% {
+        box-shadow: 1em -0.5em#18181B, -1em 0.5em#18181B;
+    }
+}
+
+@keyframes after {
+    0% {
+        height: 0.5em;
+        box-shadow: 0.5em 1em#deb368, -0.5em -1em#F4F4F5;
+    }
+
+    35% {
+        height: 2.5em;
+        box-shadow: 0.5em 0#deb368, -0.5em 0#deb368;
+    }
+
+    70% {
+        height: 0.5em;
+        box-shadow: 0.5em -1em#deb368, -0.5em 1em#deb368;
+    }
+
+    100% {
+        box-shadow: 0.5em 1em#deb368, -0.5em -1em#deb368;
+    }
+}
+
+.main-wrap--white {
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background-color: #00000080;
+}

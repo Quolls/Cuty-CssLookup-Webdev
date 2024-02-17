@@ -1,0 +1,50 @@
+.privacy-policy {
+  background: #F4F4F5;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 40px;
+  padding-bottom: 50px;
+  margin-top: 100px !important;
+}
+
+.agreebtns.backnext a {
+  width: 180px;
+  justify-content: center;
+}
+
+
+/* =============================================== */
+ol {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+ol li span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #18181B;
+}
+
+.privacy-policy ul li {
+  margin: 0;
+  padding-left: 30px;
+  list-style: none;
+  background-image: url('./../../Assets/images/tick.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 21px;
+}
+
+ul li span,
+p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #18181B;
+}

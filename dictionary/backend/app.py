@@ -2,11 +2,13 @@ import glob
 import os
 import re
 from collections import defaultdict
-
+import json
 import pymongo
 from dotenv import load_dotenv
 from flask import Flask, jsonify, request
 from flask_cors import CORS  # 导入 CORS
+import requests
+
 
 app = Flask(__name__)
 CORS(app)  # 启用 CORS 支持
@@ -94,22 +96,97 @@ def search_css():
     else:
         return jsonify({"message": "No CSS rules found matching your query."}), 404
 
+def gpt_ok(comment):
+    print(f"the input is: {comment}")
+    print("generating...")
+    # Your existing API endpoint and authentication headers
+    url = "https://api.aiwe.io/v1/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        # "Authorization": "Bearer sk-pIUuoefsKsPZ8HAkC73036B315E5406a9dE42fE1C80eB4C3",
+        "Authorization": "Bearer sk-JZalSJ6G62V3CAjS7cE3F481E71d4a9a86DcB5C4F4B9E0Ba",
+    }
+    prompt = f"""
+    what can be the following css style do? Provide the detailed explanations. Using some fancy color to address the content and the thing you think is important. Your answer should in a html format. No more than 100 words. using bullet points. directly give the html content without using "```html ```" as a wrapper.
+    for example:
+    <ul>
+    <li><span style="color: #FF5733;">font-family:</span> Sets the font to 'Inter' and a fallback of sans-serif.</li>
+    <li><span style="color: #FF5733;">font-style:</span> Sets the font style to normal.</li>
+    <li><span style="color: #FF5733;">font-weight:</span> Sets the font weight to 500 (medium).</li>
+    <li><span style="color: #FF5733;">font-size:</span> Sets the font size to 14 pixels.</li>
+    <li><span style="color: #FF5733;">line-height:</span> Sets the line height to 17 pixels.</li>
+    <li><span style="color: #FF5733;">display:</span> Makes the element a flex container.</li>
+    <li><span style="color: #FF5733;">align-items:</span> Centers the content vertically.</li>
+    <li><span style="color: #FF5733;">letter-spacing:</span> Adds spacing between letters.</li>
+    <li><span style="color: #FF5733;">margin:</span> Sets margin top and bottom to 5 pixels.</li>
+    <li><span style="color: #FF5733;">color:</span> Sets the text color to #18181e.</li>
+    </ul>
 
-@app.route("/get_css_content", methods=["POST"])
-def get_css_content():
-    # 从请求体中获取 css_name
-    data = request.json
-    css_name = data.get("css_name", "")
+    The css style that you need to answer is the following:
+    ```{comment}```
+    """
 
-    # 查找匹配的CSS规则
-    result = collection.find_one({"css_name": css_name}, {"_id": 0, "content": 1})
+    # Build the payload for the API request
+    payload = {
+        # "model": "gpt-4-gizmo-g-IAptGSWut",
+        "model": "gpt-3.5-turbo",
+        "messages": [
+            {
+                "role": "system",
+                "content": "",
+            },
+            {"role": "user", "content": prompt},
+        ],
+    }
 
-    if result:
-        # 如果找到了匹配的规则，返回content
-        return jsonify(result), 200
+    # Send the POST request
+    response = requests.post(url, json=payload, headers=headers)
+
+    if response.status_code == 200:
+        response_data = json.loads(response.text)
+        res = response_data["choices"][0]["message"]["content"]
     else:
-        # 如果没有找到，返回404错误
+        print(f"Request failed with status code {response.status_code}")
+        print("Error message:", response.text)
+    
+    print(res)
+    return f"<html><body>{res}</body></html>"
+
+@app.route('/get_css_content', methods=['POST'])
+def get_css_content():
+    data = request.json
+    css_name = data.get('css_name', '')
+    
+    result = collection.find_one({"css_name": css_name}, {'_id': 0, 'content': 1, 'function': 1})
+    
+    if result:
+        if 'function' in result:
+            return jsonify({"content": result['function']}), 200
+        else:
+            # 调用 gpt_ok 函数处理 content
+            processed_content = gpt_ok(result['content'])
+            return jsonify({"content": processed_content}), 200
+    else:
         return jsonify({"message": "No CSS content found for the provided name."}), 404
+
+
+@app.route('/save_css_function', methods=['POST'])
+def save_css_function():
+    data = request.json
+    css_name = data.get('css_name')
+    function_content = data.get('function')
+
+    # 查找并更新对应的CSS规则
+    result = collection.update_one(
+        {"css_name": css_name},
+        {"$set": {"function": function_content}}
+    )
+    
+    if result.modified_count > 0:
+        return jsonify({"message": "CSS function saved successfully."}), 200
+    else:
+        return jsonify({"message": "No CSS rule updated."}), 404
+
 
 
 if __name__ == "__main__":

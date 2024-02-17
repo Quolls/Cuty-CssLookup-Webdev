@@ -1,0 +1,19 @@
+.chat_screen_mobile_back_link {
+  padding: 20px 0 26px 20px;
+  color: #18181B !important;
+  display: flex;
+  align-items: center;
+}
+
+.chat_screen_mobile_back_btn {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.mobile_chat_screen_list .customerlist {
+  margin: 14px 20px;
+  border-radius: 10px;
+}
+
+ul.chatlists li:last-child {
+  border-bottom: none;
+}
